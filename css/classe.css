@@ -1,0 +1,70 @@
+        h1{
+            text-align: center;
+            font-size: 60px;
+            color: antiquewhite(118, 5, 5);
+            font-family: iron;
+        }
+
+        @font-face {
+            font-family: iron ;
+            src: url("/arquivo/maiden.ttf");
+        }
+        hr{
+            width: 60%;
+            height: 15px;
+            background-color: aliceblue;
+        }
+        .texto{
+            width: 60%;
+            text-align: justify;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #praia{
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .videosol{
+            width: 60%;
+            height: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .audio{
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        body{
+            background: url("/imagem/pexels-césar-coni-3671512.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: 0px -150px;
+        }
+
+        button{
+            padding: 10px;
+            background: rgb(3, 58, 3);
+            color: aqua;
+            border-radius: 6px;
+            transition: 0.6s;
+        }
+
+        button:hover{
+            background: aqua;
+            color: black;
+        }
+
+        .botoes{
+            width: 60%;
+            margin: 20px auto;
+            background: rgba(255, 0, 0, 0.429);
+            padding: 10px 0;
+            text-align: center;
+            border-radius: 20px;
+        }

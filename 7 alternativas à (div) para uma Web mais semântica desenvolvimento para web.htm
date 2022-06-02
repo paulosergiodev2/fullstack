@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html class="" lang="pt-br"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>7 alternativas à &lt;div&gt; para uma Web mais semântica | desenvolvimento para web</title>
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="apple-touch-icon" sizes="180x180" href="https://desenvolvimentoparaweb.com/apple-touch-icon.png?v=alQ5JJbwNQ">
+<link rel="icon" type="image/png" sizes="32x32" href="https://desenvolvimentoparaweb.com/favicon-32x32.png?v=alQ5JJbwNQ">
+<link rel="icon" type="image/png" sizes="16x16" href="https://desenvolvimentoparaweb.com/favicon-16x16.png?v=alQ5JJbwNQ">
+<link rel="mask-icon" href="https://desenvolvimentoparaweb.com/safari-pinned-tab.svg?v=alQ5JJbwNQ" color="#3da6c8">
+<link rel="shortcut icon" href="https://desenvolvimentoparaweb.com/favicon.ico?v=alQ5JJbwNQ">
+<meta name="msapplication-TileColor" content="#3da6c8">
+<meta name="theme-color" content="#ffffff">
+<meta name="p:domain_verify" content="d2eb22f71270ac8a835caf39aa9f07ea">
+<meta name="google-site-verification" content="hUTgEW3W-2R6KWHXEpwA7-BMjFnpoNnC9d-ICmxmH-c">
+<link rel="preload" href="https://desenvolvimentoparaweb.com/app/plugins/hustle/assets/hustle-ui/fonts/hustle-icons-font.ttf" as="font" type="font/ttf" crossorigin="">
+<script type="text/javascript" async="" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/conversion_async.js"></script><script type="text/javascript" async="" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/analytics.js"></script><script src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/1988671524587487.js" async=""></script><script src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/identity.js" async=""></script><script async="" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/fbevents.js"></script><script async="" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/gtm.js"></script><script>
+window.onload = function() {
+/**
+ * Fix portfolio campaing utm
+ */
+  var cpLink = document.querySelectorAll('a[href="https://portfoliosemclientes.gr8.com/?utm_source=blog&utm_medium=post_tip&utm_campaign=portfolio"]');
+  for (var i = 0; i < cpLink.length; i++) {
+    cpLink[i].setAttribute('href', cpLink[i].getAttribute('href').replace('=blog','=dpw') + '&utm_content=' + encodeURIComponent(location.pathname))
+  }
+
+
+/**
+ * Clear Social Share svg cache
+ */
+var $cSocialShares = document.querySelectorAll('.c-social-share img');
+
+for (var i = 0; i < $cSocialShares.length; i++) {
+    var $cSocialShare = $cSocialShares[i];
+    var src = $cSocialShares[i].getAttribute('src') + '?v=1';
+    $cSocialShare.setAttribute('src', src);
+    $cSocialShare.setAttribute('data-src', src);
+}
+}
+</script>
+<style>
+.c-article { max-width: 100vw }
+
+@media (max-width: 1024px) {
+  .wph-modal {
+      display: none !important;
+  }
+}
+</style>
+<link rel="preconnect" href="https://hb.wpmucdn.com/">
+<link rel="preconnect" href="https://storage.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://connect.facebook.net/">
+<link rel="preconnect" href="https://www.googletagmanager.com/">
+<link rel="preconnect" href="https://www.google-analytics.com/">
+<link rel="preconnect" href="https://cdn.onesignal.com/">
+<link rel="preconnect" href="https://www.facebook.com/">
+<link rel="preconnect" href="https://stats.g.doubleclick.net/">
+<link rel="dns-prefetch" href="https://hb.wpmucdn.com/">
+<link rel="dns-prefetch" href="https://storage.googleapis.com/">
+<link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="https://connect.facebook.net/">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+<link rel="dns-prefetch" href="https://www.google-analytics.com/">
+<link rel="dns-prefetch" href="https://cdn.onesignal.com/">
+<link rel="dns-prefetch" href="https://www.facebook.com/">
+<link rel="dns-prefetch" href="https://stats.g.doubleclick.net/">
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NT27GCR');</script>
+
+
+<meta name="description" content="Semântica na Web é algo imprescindível. Saiba como aprimorar a semântica de seus sites através do uso de tags com mais significado.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://desenvolvimentoparaweb.com/html/web-semantica-7-alternativas-div/">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="article">
+<meta property="og:title" content="7 alternativas à &lt;div&gt; para uma Web mais semântica | desenvolvimento para web">
+<meta property="og:description" content="Semântica na Web é algo imprescindível. Saiba como aprimorar a semântica de seus sites através do uso de tags com mais significado.">
+<meta property="og:url" content="https://desenvolvimentoparaweb.com/html/web-semantica-7-alternativas-div/">
+<meta property="og:site_name" content="desenvolvimento para web">
+<meta property="article:publisher" content="https://www.facebook.com/desenvolvimentoparaweb/">
+<meta property="article:published_time" content="2020-06-15T20:54:22+00:00">
+<meta property="article:modified_time" content="2020-12-08T14:10:08+00:00">
+<meta property="og:image" content="https://storage.googleapis.com/dpw/app/uploads/2020/06/aristoteles-semantica-web-ontologia.jpg">
+<meta property="og:image:width" content="1500">
+<meta property="og:image:height" content="785">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@desenvolvweb">
+<meta name="twitter:site" content="@desenvolvweb">
+<meta name="twitter:label1" content="Written by">
+<meta name="twitter:data1" content="Tárcio Zemel">
+<meta name="twitter:label2" content="Est. reading time">
+<meta name="twitter:data2" content="7 minutos">
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://desenvolvimentoparaweb.com/#organization","name":"dpw","url":"https://desenvolvimentoparaweb.com/","sameAs":["https://www.facebook.com/desenvolvimentoparaweb/","https://www.instagram.com/desenvolvweb/","https://www.linkedin.com/company/web-fatorial/","https://www.youtube.com/channel/UCdHcHgSrWidiOg-mNFNB1Nw","https://twitter.com/desenvolvweb"],"logo":{"@type":"ImageObject","@id":"https://desenvolvimentoparaweb.com/#logo","inLanguage":"pt-BR","url":"https://storage.googleapis.com/dpw/app/uploads/2018/10/dpw-logo.png","width":800,"height":800,"caption":"dpw"},"image":{"@id":"https://desenvolvimentoparaweb.com/#logo"}},{"@type":"WebSite","@id":"https://desenvolvimentoparaweb.com/#website","url":"https://desenvolvimentoparaweb.com/","name":"desenvolvimento para web","description":"site performance, web design responsivo e tecnologias web","publisher":{"@id":"https://desenvolvimentoparaweb.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://desenvolvimentoparaweb.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"pt-BR"},{"@type":"ImageObject","@id":"https://desenvolvimentoparaweb.com/html/web-semantica-7-alternativas-div/#primaryimage","inLanguage":"pt-BR","url":"https://storage.googleapis.com/dpw/app/uploads/2020/06/aristoteles-semantica-web-ontologia.jpg","width":1500,"height":785},{"@type":"WebPage","@id":"https://desenvolvimentoparaweb.com/html/web-semantica-7-alternativas-div/#webpage","url":"https://desenvolvimentoparaweb.com/html/web-semantica-7-alternativas-div/","name":"7 alternativas \u00e0 &lt;div&gt; para uma Web mais sem\u00e2ntica | desenvolvimento para web","isPartOf":{"@id":"https://desenvolvimentoparaweb.com/#website"},"primaryImageOfPage":{"@id":"https://desenvolvimentoparaweb.com/html/web-semantica-7-alternativas-div/#primaryimage"},"datePublished":"2020-06-15T20:54:22+00:00","dateModified":"2020-12-08T14:10:08+00:00","description":"Sem\u00e2ntica na Web \u00e9 algo imprescind\u00edvel. Saiba como aprimorar a sem\u00e2ntica de seus sites atrav\u00e9s do uso de tags com mais significado.","inLanguage":"pt-BR","potentialAction":[{"@type":"ReadAction","target":["https://desenvolvimentoparaweb.com/html/web-semantica-7-alternativas-div/"]}]},{"@type":"Article","@id":"https://desenvolvimentoparaweb.com/html/web-semantica-7-alternativas-div/#article","isPartOf":{"@id":"https://desenvolvimentoparaweb.com/html/web-semantica-7-alternativas-div/#webpage"},"author":{"@id":"https://desenvolvimentoparaweb.com/#/schema/person/c6c4593988c8ff93b5814eb5c1bac8be"},"headline":"7 alternativas \u00e0 &lt;div&gt; para uma Web mais sem\u00e2ntica","datePublished":"2020-06-15T20:54:22+00:00","dateModified":"2020-12-08T14:10:08+00:00","mainEntityOfPage":{"@id":"https://desenvolvimentoparaweb.com/html/web-semantica-7-alternativas-div/#webpage"},"publisher":{"@id":"https://desenvolvimentoparaweb.com/#organization"},"image":{"@id":"https://desenvolvimentoparaweb.com/html/web-semantica-7-alternativas-div/#primaryimage"},"keywords":"Acessibilidade,B\u00e1sico da Web,Usabilidade","articleSection":"HTML","inLanguage":"pt-BR"},{"@type":"Person","@id":"https://desenvolvimentoparaweb.com/#/schema/person/c6c4593988c8ff93b5814eb5c1bac8be","name":"T\u00e1rcio Zemel","image":{"@type":"ImageObject","@id":"https://desenvolvimentoparaweb.com/#personlogo","inLanguage":"pt-BR","url":"https://desenvolvimentoparaweb.com/app/wphb-cache/gravatar/14e/14ea7b930d175ec0ee881773dcfe7be5x96.jpg","caption":"T\u00e1rcio Zemel"}}]}</script>
+
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<style id="global-styles-inline-css" type="text/css">
+:root{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--normal: 16px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--huge: 42px;--wp--preset--font-style--normal: normal;--wp--preset--font-style--italic: italic;--wp--preset--font-weight--100: 100;--wp--preset--font-weight--200: 200;--wp--preset--font-weight--300: 300;--wp--preset--font-weight--400: 400;--wp--preset--font-weight--500: 500;--wp--preset--font-weight--600: 600;--wp--preset--font-weight--700: 700;--wp--preset--font-weight--800: 800;--wp--preset--font-weight--900: 900;--wp--preset--text-decoration--underline: underline;--wp--preset--text-decoration--strikethrough: line-through;--wp--preset--text-transform--uppercase: uppercase;--wp--preset--text-transform--lowercase: lowercase;--wp--preset--text-transform--capitalize: capitalize;}.has-black-color{color: #000000;}.has-black-background-color{background-color: #000000;}.has-cyan-bluish-gray-color{color: #abb8c3;}.has-cyan-bluish-gray-background-color{background-color: #abb8c3;}.has-white-color{color: #ffffff;}.has-white-background-color{background-color: #ffffff;}.has-pale-pink-color{color: #f78da7;}.has-pale-pink-background-color{background-color: #f78da7;}.has-vivid-red-color{color: #cf2e2e;}.has-vivid-red-background-color{background-color: #cf2e2e;}.has-luminous-vivid-orange-color{color: #ff6900;}.has-luminous-vivid-orange-background-color{background-color: #ff6900;}.has-luminous-vivid-amber-color{color: #fcb900;}.has-luminous-vivid-amber-background-color{background-color: #fcb900;}.has-light-green-cyan-color{color: #7bdcb5;}.has-light-green-cyan-background-color{background-color: #7bdcb5;}.has-vivid-green-cyan-color{color: #00d084;}.has-vivid-green-cyan-background-color{background-color: #00d084;}.has-pale-cyan-blue-color{color: #8ed1fc;}.has-pale-cyan-blue-background-color{background-color: #8ed1fc;}.has-vivid-cyan-blue-color{color: #0693e3;}.has-vivid-cyan-blue-background-color{background-color: #0693e3;}.has-vivid-purple-color{color: #9b51e0;}.has-vivid-purple-background-color{background-color: #9b51e0;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);}.has-cool-to-warm-spectrum-gradient-background{background: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);}.has-blush-light-purple-gradient-background{background: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);}.has-blush-bordeaux-gradient-background{background: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);}.has-luminous-dusk-gradient-background{background: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);}.has-pale-ocean-gradient-background{background: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);}.has-electric-grass-gradient-background{background: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);}.has-midnight-gradient-background{background: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);}.has-small-font-size{font-size: 13px;}.has-normal-font-size{font-size: 16px;}.has-medium-font-size{font-size: 20px;}.has-large-font-size{font-size: 36px;}.has-huge-font-size{font-size: 42px;}.has-normal-font-style{font-style: normal;}.has-italic-font-style{font-style: italic;}.has-100-font-weight{font-weight: 100;}.has-200-font-weight{font-weight: 200;}.has-300-font-weight{font-weight: 300;}.has-400-font-weight{font-weight: 400;}.has-500-font-weight{font-weight: 500;}.has-600-font-weight{font-weight: 600;}.has-700-font-weight{font-weight: 700;}.has-800-font-weight{font-weight: 800;}.has-900-font-weight{font-weight: 900;}.has-underline-text-decoration{text-decoration: underline;}.has-strikethrough-text-decoration{text-decoration: line-through;}.has-uppercase-text-transform{text-transform: uppercase;}.has-lowercase-text-transform{text-transform: lowercase;}.has-capitalize-text-transform{text-transform: capitalize;}
+</style>
+<link rel="stylesheet" id="google_fonts-css" href="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/css_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="crayon-theme-monokai-css" href="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/f8fad650393ad920c7f91242d23325f8.css" type="text/css" media="all">
+<link rel="stylesheet" id="crayon-font-droid-sans-mono-css" href="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/b1a39984ff3bb8949f9293812b1c373d.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/d3d5e9bb8102ebeddd68b127a06ac9ee.css" type="text/css" media="all">
+<link rel="stylesheet" id="dpw/main.css-css" href="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/1df6a69fe4d539302a8850ddb3348ac3.css" type="text/css" media="all">
+<link rel="stylesheet" id="crayon-css" href="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/d30e156ab3bc49b0bd2c72225bedd7a6.css" type="text/css" media="all">
+<link rel="https://api.w.org/" href="https://desenvolvimentoparaweb.com/wp-json/"><link rel="alternate" type="application/json" href="https://desenvolvimentoparaweb.com/wp-json/wp/v2/posts/6118"><link rel="alternate" type="application/json+oembed" href="https://desenvolvimentoparaweb.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdesenvolvimentoparaweb.com%2Fhtml%2Fweb-semantica-7-alternativas-div%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://desenvolvimentoparaweb.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdesenvolvimentoparaweb.com%2Fhtml%2Fweb-semantica-7-alternativas-div%2F&amp;format=xml">
+<style type="text/css" id="branda-admin-bar-logo">
+body #wpadminbar #wp-admin-bar-wp-logo > .ab-item {
+	background-image: url(https://desenvolvimentoparaweb.com/app/uploads/2018/11/dpw-logo-negative.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: 80%;
+}
+body #wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {
+	content: " ";
+}
+</style>
+<script>
+			document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
+		</script>
+<style>
+			.no-js img.lazyload { display: none; }
+			figure.wp-block-image img.lazyloading { min-width: 150px; }
+							.lazyload { opacity: 0; }
+				.lazyloading {
+					border: 0 !important;
+					opacity: 1;
+					background: rgba(255, 255, 255, 0) url('https://desenvolvimentoparaweb.com/app/plugins/wp-smush-pro/app/assets/images/smush-lazyloader-2.gif') no-repeat center !important;
+					background-size: 16px auto !important;
+					min-width: 16px;
+				}
+					</style>
+<meta name="onesignal" content="wordpress-plugin">
+<script>
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+        OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+        OneSignal.SERVICE_WORKER_PARAM = { scope: '/' };
+
+        OneSignal.setDefaultNotificationUrl("https://desenvolvimentoparaweb.com/wp");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = 'a464c486-9c1e-4c75-afcf-8fb2290c267a';
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "dpw";
+oneSignal_options['welcomeNotification']['message'] = "Agradecemos pela inscrição!";
+oneSignal_options['path'] = "https://desenvolvimentoparaweb.com/app/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['promptOptions'] = { };
+          /* OneSignal: Using custom SDK initialization. */
+                });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+<script>
+        window.OneSignal = window.OneSignal || [];
+        window.OneSignal.push(function() {
+            OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js";
+            OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js";
+            OneSignal.SERVICE_WORKER_PARAM = { scope: '/' };
+            delete window._oneSignalInitOptions.path;
+            window.OneSignal.init(window._oneSignalInitOptions);
+        });
+    </script> 
+<script>
+			var aepc_pixel = {"pixel_id":"1988671524587487","user":{},"enable_advanced_events":"yes","fire_delay":"0"},
+				aepc_pixel_args = [],
+				aepc_extend_args = function( args ) {
+					if ( typeof args === 'undefined' ) {
+						args = {};
+					}
+
+					for(var key in aepc_pixel_args)
+						args[key] = aepc_pixel_args[key];
+
+					return args;
+				};
+
+			// Extend args
+			if ( 'yes' === aepc_pixel.enable_advanced_events ) {
+				aepc_pixel_args.userAgent = navigator.userAgent;
+				aepc_pixel_args.language = navigator.language;
+
+				if ( document.referrer.indexOf( document.domain ) < 0 ) {
+					aepc_pixel_args.referrer = document.referrer;
+				}
+			}
+		</script>
+<script>
+						!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+				n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+				n.push=n;n.loaded=!0;n.version='2.0';n.agent='dvpixelcaffeinewordpress';n.queue=[];t=b.createElement(e);t.async=!0;
+				t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+				document,'script','https://connect.facebook.net/en_US/fbevents.js');
+			
+						fbq('init', aepc_pixel.pixel_id, aepc_pixel.user);
+
+						setTimeout( function() {
+				fbq('track', "PageView", aepc_pixel_args);
+			}, aepc_pixel.fire_delay * 1000 );
+					</script>
+<noscript><img height="1" width="1" style="display:none"
+		               src="https://www.facebook.com/tr?id=1988671524587487&ev=PageView&noscript=1"
+			/></noscript>
+
+<script src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/OneSignalPageSDKES6.js" async=""></script><meta http-equiv="origin-trial" content="A9wkrvp9y21k30U9lU7MJMjBj4USjLrGwV+Z8zO3J3ZBH139DOnCv3XLK2Ii40S94HG1SZ/Zeg2GSHOD3wlWngYAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/a"></script></head>
+<body class="app post-template-default single single-post postid-6118 single-format-standard web-semantica-7-alternativas-div app-data index-data singular-data single-data single-post-data single-post-web-semantica-7-alternativas-div-data">
+
+<noscript><iframe 
+height="0" width="0" style="display:none;visibility:hidden" data-src="https://www.googletagmanager.com/ns.html?id=GTM-NT27GCR" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></iframe></noscript>
+
+<div class="l-header js-header">
+<div class="l-header__inner">
+<a href="https://desenvolvimentoparaweb.com/" rel="nofollow" class="c-logo js-logo">
+<img alt="desenvolvimento para web" data-src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/desenvolvimento-para-web-logo_9b02c264.png" class=" lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/desenvolvimento-para-web-logo_9b02c264.png" width="100"><noscript><img src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/desenvolvimento-para-web-logo_9b02c264.png" width="100" alt="desenvolvimento para web" /></noscript>
+</a>
+<nav class="c-main-menu">
+<a href="https://desenvolvimentoparaweb.com/" rel="nofollow" class="c-logo c-logo--inverted">
+<img data-src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/desenvolvimento-para-web-logo_9b02c264.png" class=" ls-is-cached lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/desenvolvimento-para-web-logo_9b02c264.png" width="100"><noscript><img src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/desenvolvimento-para-web-logo_9b02c264.png" width="100" /></noscript>
+</a>
+<hr>
+<div class="c-main-menu__top-wrapper">
+<div class="menu-highlights-container"><ul id="menu-highlights" class="c-main-menu__top"><li id="menu-item-4685" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4685"><a href="https://desenvolvimentoparaweb.com/projetos/"><div class="c-main-menu__top-item">
+<img data-src="https://storage.googleapis.com/dpw/app/uploads/2019/06/link-button.svg" class="inverted lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/link-button.svg" width="35"><noscript><img class="inverted" width="35" src="https://storage.googleapis.com/dpw/app/uploads/2019/06/link-button.svg" /></noscript>
+<span>Projetos</span>
+</div></a></li>
+<li id="menu-item-4686" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4686"><a href="https://www.youtube.com/channel/UCdHcHgSrWidiOg-mNFNB1Nw"><div class="c-main-menu__top-item">
+<img data-src="https://storage.googleapis.com/dpw/app/uploads/2019/06/media-play-symbol.svg" class="inverted lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/media-play-symbol.svg" width="35"><noscript><img class="inverted" width="35" src="https://storage.googleapis.com/dpw/app/uploads/2019/06/media-play-symbol.svg" /></noscript>
+<span>Vídeos</span>
+</div></a></li>
+</ul></div>
+</div>
+<hr>
+<div class="c-main-menu__main-wrapper">
+<div class="menu-main-menu-2-container"><ul id="menu-main-menu-2" class="c-main-menu__main"><li id="menu-item-4695" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4695"><a href="https://desenvolvimentoparaweb.com/">Início</a></li>
+<li id="menu-item-4692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4692"><a href="https://desenvolvimentoparaweb.com/sobre/">Sobre</a></li>
+<li id="menu-item-6186" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6186"><a href="https://layouts1linha.desenvolvimentoparaweb.com/">Layouts com 1 linha de CSS</a></li>
+<li id="menu-item-4694" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4694"><a href="https://recursosfrontend.desenvolvimentoparaweb.com/">Recursos front end</a></li>
+<li id="menu-item-4691" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4691"><a href="https://desenvolvimentoparaweb.com/politica-de-privacidade/">Política de privacidade</a></li>
+</ul></div>
+</div>
+<div class="c-main-menu__bottom-wrapper">
+<div class="menu-social-networks-container"><ul id="menu-social-networks" class="c-main-menu__bottom"><li id="menu-item-4687" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4687"><a href="https://www.facebook.com/desenvolvweb/"><img data-src="https://storage.googleapis.com/dpw/app/uploads/2019/01/facebook_02994350.svg" class="inverted ls-is-cached lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/facebook_02994350_002.svg" width="20"><noscript><img class="inverted" width="20" src="https://storage.googleapis.com/dpw/app/uploads/2019/01/facebook_02994350.svg" /></noscript></a></li>
+<li id="menu-item-4688" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4688"><a href="https://www.instagram.com/desenvolvweb/"><img data-src="https://storage.googleapis.com/dpw/app/uploads/2019/02/iconmonstr-instagram-11.svg" class="inverted lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/iconmonstr-instagram-11_002.svg" width="20"><noscript><img class="inverted" width="20" src="https://storage.googleapis.com/dpw/app/uploads/2019/02/iconmonstr-instagram-11.svg" /></noscript></a></li>
+<li id="menu-item-4689" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4689"><a href="https://www.youtube.com/channel/UCdHcHgSrWidiOg-mNFNB1Nw"><img data-src="https://storage.googleapis.com/dpw/app/uploads/2019/01/youtube.svg" class="inverted lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/youtube_002.svg" width="20"><noscript><img class="inverted" width="20" src="https://storage.googleapis.com/dpw/app/uploads/2019/01/youtube.svg" /></noscript></a></li>
+<li id="menu-item-4690" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4690"><a href="https://twitter.com/desenvolvweb"><img data-src="https://storage.googleapis.com/dpw/app/uploads/2019/01/twitter_018c7f54.svg" class="inverted lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/twitter_018c7f54_002.svg" width="20"><noscript><img class="inverted" width="20" src="https://storage.googleapis.com/dpw/app/uploads/2019/01/twitter_018c7f54.svg" /></noscript></a></li>
+</ul></div>
+</div>
+</nav>
+<span class="c-main-menu-helper js-main-menu-helper"></span>
+<span class="c-main-menu-trigger js-main-menu-trigger">
+<button type="button" class="hamburger hamburger--squeeze js-hamburger" aria-label="Menu" aria-controls="navigation" aria-expanded="true/false">
+<span class="hamburger-box">
+<span class="hamburger-inner"></span>
+</span>
+<span class="hamburger-label">Menu</span>
+</button>
+</span>
+<span class="c-search-trigger">
+<button type="button" class="c-search-trigger__button js-search-trigger">
+<span class="icon c-search-trigger__icon"></span>
+<span class="c-search-trigger__label">Buscar</span>
+</button>
+</span>
+</div>
+</div>
+<main class="l-main js-main" role="document">
+<article class="c-article post-6118 post type-post status-publish format-standard has-post-thumbnail hentry category-html tag-acessibilidade tag-basico-da-web tag-usabilidade">
+<header class="c-article__header js-article-header">
+<h1 class="c-article__title">7 alternativas à &lt;div&gt; para uma Web mais semântica</h1>
+<div class="c-article__excerpt"><p>Semântica na Web é algo 
+imprescindível. Saiba como aprimorar a semântica de seus sites através 
+do uso de tags com mais significado.</p>
+</div>
+<div class="c-article__featured-image-wrapper">
+<img data-src="https://storage.googleapis.com/dpw/app/uploads/2020/06/aristoteles-semantica-web-ontologia.jpg" class="c-article__featured-image lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/aristoteles-semantica-web-ontologia.jpg"><noscript><img src="https://storage.googleapis.com/dpw/app/uploads/2020/06/aristoteles-semantica-web-ontologia.jpg" class="c-article__featured-image"></noscript>
+</div>
+<aside class="c-article__metas c-article__metas--others">
+<div class="c-article__meta">
+<i class="icon">
+<img data-src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/calendar_232b3067.svg" class=" lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/calendar_232b3067.svg"><noscript><img src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/calendar_232b3067.svg" /></noscript>
+</i>
+<time class="updated" datetime="2020-06-15T20:54:22+00:00">15/06/2020</time>
+</div>
+<div class="c-article__meta">
+<i class="icon">
+<img data-src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/user_e8f5444d.svg" class=" lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/user_e8f5444d.svg"><noscript><img src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/user_e8f5444d.svg" /></noscript>
+</i>
+<span>
+Tárcio Zemel
+</span>
+</div>
+<div class="c-article__meta">
+<i class="icon">
+<img data-src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/timer_ae0928dd.svg" class=" lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/timer_ae0928dd.svg"><noscript><img src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/timer_ae0928dd.svg" /></noscript>
+</i>
+<span>8min para ler</span>
+</div>
+</aside>
+<aside class="c-article__metas c-article__metas--cats-tags">
+<div class="c-article__meta">
+<a href="https://desenvolvimentoparaweb.com/categoria/html" class="c-tag c-tag--category" title="23 artigos na categoria &quot;html&quot;" aria-haspopup="">
+<i class="icon">
+<img data-src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/bookmark_257ade0f.svg" class=" lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/bookmark_257ade0f.svg"><noscript><img src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/bookmark_257ade0f.svg" /></noscript>
+</i>
+html
+</a>
+<a href="https://desenvolvimentoparaweb.com/tag/acessibilidade" class="c-tag c-tag--tag" title="11 artigos na tag &quot;acessibilidade&quot;" aria-haspopup="">
+<i class="icon">
+<img data-src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/tag_a63aaadc.svg" class=" lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/tag_a63aaadc.svg"><noscript><img data-src='https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/tag_a63aaadc.svg' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img data-src='https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/tag_a63aaadc.svg' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/tag_a63aaadc.svg" /></noscript>
+</i>
+acessibilidade
+</a>
+<a href="https://desenvolvimentoparaweb.com/tag/basico-da-web" class="c-tag c-tag--tag" title="25 artigos na tag &quot;básico da web&quot;" aria-haspopup="">
+<i class="icon">
+<img data-src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/tag_a63aaadc.svg" class=" lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/tag_a63aaadc.svg"><noscript><img data-src='https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/tag_a63aaadc.svg' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img data-src='https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/tag_a63aaadc.svg' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/tag_a63aaadc.svg" /></noscript>
+</i>
+básico da web
+</a>
+<a href="https://desenvolvimentoparaweb.com/tag/usabilidade" class="c-tag c-tag--tag" title="18 artigos na tag &quot;usabilidade&quot;" aria-haspopup="">
+<i class="icon">
+<img data-src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/tag_a63aaadc.svg" class=" lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/tag_a63aaadc.svg"><noscript><img data-src='https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/tag_a63aaadc.svg' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img data-src='https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/tag_a63aaadc.svg' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/icons/tag_a63aaadc.svg" /></noscript>
+</i>
+usabilidade
+</a>
+</div>
+</aside>
+<a href="#content" class="c-article__btn-go-article">Ir para o artigo</a>
+</header>
+<aside class="c-newsletter-call js-newsletter" id="content">
+<p class="c-newsletter-call__title">Assine nossa newsletter e receba indicações sensacionais 1 vez por mês!</p>
+<form class="c-newsletter-call__form js-newsletter-form">
+<input type="email" name="email" size="25" autocapitalize="none" autocorrect="off" class="c-newsletter-call__form-email" required="">
+<button type="submit" class="c-newsletter-call__form-submit">
+<span class="js-newsletter-btn">Eu quero!</span>
+</button>
+</form>
+<span class="c-newsletter-call__bg"></span>
+<div class="c-newsletter-call__message js-newsletter-message"></div>
+</aside>
+<div class="c-article__entry-content l-entry-content">
+<p><strong>Web Semântica</strong> (ou <strong>Semantic Web</strong>) é um assunto muito importante, embora ainda bastante desconhecido (e até negligenciado) pela maioria dos devs.</p>
+<div class="embed-container">
+<iframe title="7 Alternativas à DIV para Melhorar a Semântica de Sites/Apps" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-src="https://www.youtube.com/embed/nVTqo48Fo3c?feature=oembed" class=" lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="500" height="281" frameborder="0"></iframe>
+</div>
+<p>O conteúdo relacionado à semântica na Web é bastante amplo. Neste 
+artigo, não serão vistos tópicos como o que é web semântica, qual sua 
+importância, como funciona a web semântica, ontologias, Web Semântica e 
+Inteligência Artificial e coisas do tipo.</p>
+<p>A abordagem aqui é mais prática e muito mais simples: <strong>como aprimorar a semântica de sites</strong>
+ simplesmente substituindo determinadas tags sem significado por tags 
+mais condizentes e melhores, que realmente informam/significam alguma 
+coisa.</p>
+<p>O uso correto de tags mais semânticas traz benefícios de SEO, 
+acessibilidade, usabilidade e mais. Então, conheça essas 7 alternativas à
+ <code>&lt;div&gt;</code> para uma Web mais semântica.</p>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="Queima de arquivo galáctica" data-srcset="https://storage.googleapis.com/dpw/app/uploads/2020/12/div-astronauts.jpg 730w, https://storage.googleapis.com/dpw/app/uploads/2020/12/div-astronauts-300x168.jpg 300w" data-src="https://storage.googleapis.com/dpw/app/uploads/2020/12/div-astronauts.jpg" data-sizes="(max-width: 730px) 100vw, 730px" class="wp-image-7023 lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/div-astronauts.jpg" sizes="(max-width: 730px) 100vw, 730px" srcset="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/div-astronauts.jpg 730w, 7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/div-astronauts-300x168.jpg 300w" width="730" height="409"><noscript><img loading="lazy" width="730" height="409" src="https://storage.googleapis.com/dpw/app/uploads/2020/12/div-astronauts.jpg" alt="Queima de arquivo galáctica" class="wp-image-7023" srcset="https://storage.googleapis.com/dpw/app/uploads/2020/12/div-astronauts.jpg 730w, https://storage.googleapis.com/dpw/app/uploads/2020/12/div-astronauts-300x168.jpg 300w" sizes="(max-width: 730px) 100vw, 730px" /></noscript></figure>
+<h2>&lt;header&gt;</h2>
+<p>A tag <code>&lt;header&gt;</code> representa um <strong>cabeçalho</strong> que pode conter informações introdutórias contextualizadas.</p>
+<p>“Contextualizadas” no sentido de que o significado desse cabeçalho 
+depende do contexto em que ele se encontra: se é filho imediato de <code>&lt;body&gt;</code>, por exemplo, trata-se do cabeçalho geral da página; se está em uma <code>&lt;section&gt;</code> (que será vista mais abaixo), é o cabeçalho dela e; assim por diante.</p>
+<p>Exemplificando, se se trata do header da página toda, então pode 
+conter informações mais abrangentes, como logo, seções de cabeçalho, 
+formulário de pesquisa etc.; se estiver dentro de um , por exemplo, é o 
+cabeçalho daquela tag específica.</p>
+<p>Exemplo de um cabeçalho geral (de um site fictício):</p>
+
+<div id="crayon-626aa16ccfdfc235338960" class="crayon-syntax crayon-theme-monokai crayon-font-droid-sans-mono crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style="margin-top: 15px; margin-bottom: 15px; font-size: 14px !important; line-height: 26px !important; height: auto;">
+<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 14px !important; height: 21px !important; line-height: 21px !important; margin-top: -21px; display: none; position: absolute; z-index: 2;"><span class="crayon-title"></span>
+<div class="crayon-tools" style="font-size: 14px !important;height: 21px !important; line-height: 21px !important;"><div class="crayon-button crayon-nums-button crayon-pressed" title="Alternar números de linha"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-plain-button" title="Exibir código simples"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-wrap-button" title="Alternar quebras de linha"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code" style="display: none;"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-popup-button" title="Abrir código em nova janela"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><span class="crayon-language">XHTML</span></div></div>
+<div class="crayon-info" style="min-height: 21px !important; line-height: 21px !important;"></div>
+<div class="crayon-plain-wrap"><textarea class="crayon-plain print-no" data-settings="dblclick" readonly="readonly" style="tab-size: 4; font-size: 14px !important; line-height: 26px !important; z-index: 0; opacity: 0; overflow: hidden;" wrap="soft">&lt;header&gt;
+  &lt;h1&gt;Tudo sobre os Pé-Grande&lt;/h1&gt;
+  &lt;img src="pe-grande.jpg" alt="Foto real de um Pé-grande"&gt;
+&lt;/header&gt;</textarea></div>
+<div class="crayon-main" style="position: relative; z-index: 1; overflow: hidden;">
+<table class="crayon-table" style="">
+<tbody><tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content" style="font-size: 14px !important; line-height: 26px !important;"><div class="crayon-num" data-line="crayon-626aa16ccfdfc235338960-1">1</div><div class="crayon-num" data-line="crayon-626aa16ccfdfc235338960-2">2</div><div class="crayon-num" data-line="crayon-626aa16ccfdfc235338960-3">3</div><div class="crayon-num" data-line="crayon-626aa16ccfdfc235338960-4">4</div></div>
+</td>
+<td class="crayon-code"><div class="crayon-pre" style="font-size: 14px !important; line-height: 26px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-626aa16ccfdfc235338960-1"><span class="crayon-r ">&lt;header&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfdfc235338960-2"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;h1&gt;</span><span class="crayon-i ">Tudo sobre os Pé-Grande</span><span class="crayon-r ">&lt;/h1&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfdfc235338960-3"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;img </span><span class="crayon-e ">src</span><span class="crayon-o">=</span><span class="crayon-s ">"pe-grande.jpg"</span><span class="crayon-h"> </span><span class="crayon-e ">alt</span><span class="crayon-o">=</span><span class="crayon-s ">"Foto real de um Pé-grande"</span><span class="crayon-r ">&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfdfc235338960-4"><span class="crayon-r ">&lt;/header&gt;</span></div></div></td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+<h2>&lt;main&gt;</h2>
+<p>A tag <code>&lt;main&gt;</code> indica qual parte do documento contém o <strong>conteúdo principal</strong>.</p>
+<p>Entende-se como conteúdo principal aquele relacionado diretamente com
+ o tópico central da página ou com a funcionalidade central da 
+aplicação.</p>
+<p>Algo importa é que só pode haver 1 tag <code>&lt;main&gt;</code> por documento. A porção do conteúdo principal deve ser única e individual.</p>
+<p>Não deverão ser incluídas informações/interações que sejam comuns ao 
+restante do site, como logo principal, informações de copyright, busca 
+etc.</p>
+
+<div id="crayon-626aa16ccfe05577372011" class="crayon-syntax crayon-theme-monokai crayon-font-droid-sans-mono crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style="margin-top: 15px; margin-bottom: 15px; font-size: 14px !important; line-height: 26px !important; height: auto;">
+<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 14px !important; height: 21px !important; line-height: 21px !important; margin-top: -21px; display: none; position: absolute; z-index: 2;"><span class="crayon-title"></span>
+<div class="crayon-tools" style="font-size: 14px !important;height: 21px !important; line-height: 21px !important;"><div class="crayon-button crayon-nums-button crayon-pressed" title="Alternar números de linha"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-plain-button" title="Exibir código simples"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-wrap-button" title="Alternar quebras de linha"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code" style="display: none;"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-popup-button" title="Abrir código em nova janela"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><span class="crayon-language">XHTML</span></div></div>
+<div class="crayon-info" style="min-height: 21px !important; line-height: 21px !important;"></div>
+<div class="crayon-plain-wrap"><textarea class="crayon-plain print-no" data-settings="dblclick" readonly="readonly" style="tab-size: 4; font-size: 14px !important; line-height: 26px !important; z-index: 0; opacity: 0; overflow: hidden;" wrap="soft">&lt;main&gt;
+  &lt;section&gt;
+    &lt;h2&gt;Características&lt;/h2&gt;
+    &lt;p&gt;...&lt;/p&gt;
+  &lt;/section&gt;
+
+  &lt;section&gt;
+    &lt;h2&gt;Teoria evolutiva&lt;/h2&gt;
+    &lt;p&gt;...&lt;/p&gt;
+  &lt;/section&gt;
+
+  &lt;section&gt;
+    &lt;h2&gt;Últimas notícias&lt;/h2&gt;
+    &lt;p&gt;...&lt;/p&gt;
+  &lt;/section&gt;
+&lt;/main&gt;</textarea></div>
+<div class="crayon-main" style="position: relative; z-index: 1; overflow: hidden;">
+<table class="crayon-table" style="">
+<tbody><tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content" style="font-size: 14px !important; line-height: 26px !important;"><div class="crayon-num" data-line="crayon-626aa16ccfe05577372011-1">1</div><div class="crayon-num" data-line="crayon-626aa16ccfe05577372011-2">2</div><div class="crayon-num" data-line="crayon-626aa16ccfe05577372011-3">3</div><div class="crayon-num" data-line="crayon-626aa16ccfe05577372011-4">4</div><div class="crayon-num" data-line="crayon-626aa16ccfe05577372011-5">5</div><div class="crayon-num" data-line="crayon-626aa16ccfe05577372011-6">6</div><div class="crayon-num" data-line="crayon-626aa16ccfe05577372011-7">7</div><div class="crayon-num" data-line="crayon-626aa16ccfe05577372011-8">8</div><div class="crayon-num" data-line="crayon-626aa16ccfe05577372011-9">9</div><div class="crayon-num" data-line="crayon-626aa16ccfe05577372011-10">10</div><div class="crayon-num" data-line="crayon-626aa16ccfe05577372011-11">11</div><div class="crayon-num" data-line="crayon-626aa16ccfe05577372011-12">12</div><div class="crayon-num" data-line="crayon-626aa16ccfe05577372011-13">13</div><div class="crayon-num" data-line="crayon-626aa16ccfe05577372011-14">14</div><div class="crayon-num" data-line="crayon-626aa16ccfe05577372011-15">15</div><div class="crayon-num" data-line="crayon-626aa16ccfe05577372011-16">16</div></div>
+</td>
+<td class="crayon-code"><div class="crayon-pre" style="font-size: 14px !important; line-height: 26px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-626aa16ccfe05577372011-1"><span class="crayon-r ">&lt;main&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe05577372011-2"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;section&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe05577372011-3"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;h2&gt;</span><span class="crayon-i ">Características</span><span class="crayon-r ">&lt;/h2&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe05577372011-4"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;p&gt;</span><span class="crayon-i ">...</span><span class="crayon-r ">&lt;/p&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe05577372011-5"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;/section&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe05577372011-6">&nbsp;</div><div class="crayon-line" id="crayon-626aa16ccfe05577372011-7"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;section&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe05577372011-8"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;h2&gt;</span><span class="crayon-i ">Teoria evolutiva</span><span class="crayon-r ">&lt;/h2&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe05577372011-9"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;p&gt;</span><span class="crayon-i ">...</span><span class="crayon-r ">&lt;/p&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe05577372011-10"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;/section&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe05577372011-11">&nbsp;</div><div class="crayon-line" id="crayon-626aa16ccfe05577372011-12"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;section&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe05577372011-13"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;h2&gt;</span><span class="crayon-i ">Últimas notícias</span><span class="crayon-r ">&lt;/h2&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe05577372011-14"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;p&gt;</span><span class="crayon-i ">...</span><span class="crayon-r ">&lt;/p&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe05577372011-15"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;/section&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe05577372011-16"><span class="crayon-r ">&lt;/main&gt;</span></div></div></td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+<h2>&lt;footer&gt;</h2>
+<p><code>&lt;footer&gt;</code> indica qual é o <strong>rodapé</strong> daquele contexto em que a tag se encontra.</p>
+<p>Por exemplo, se for geral da página, pode conter informações de contato, copyright, navegação etc; se estiver dentro de uma <code>&lt;article&gt;</code>, é um rodapé daquele elemento, então, semanticamente, está vinculada a esta seção.</p>
+
+<div id="crayon-626aa16ccfe07444332311" class="crayon-syntax crayon-theme-monokai crayon-font-droid-sans-mono crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style="margin-top: 15px; margin-bottom: 15px; font-size: 14px !important; line-height: 26px !important; height: auto;">
+<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 14px !important; height: 21px !important; line-height: 21px !important; margin-top: -21px; display: none; position: absolute; z-index: 2;"><span class="crayon-title"></span>
+<div class="crayon-tools" style="font-size: 14px !important;height: 21px !important; line-height: 21px !important;"><div class="crayon-button crayon-nums-button crayon-pressed" title="Alternar números de linha"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-plain-button" title="Exibir código simples"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-wrap-button" title="Alternar quebras de linha"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code" style="display: none;"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-popup-button" title="Abrir código em nova janela"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><span class="crayon-language">XHTML</span></div></div>
+<div class="crayon-info" style="min-height: 21px !important; line-height: 21px !important;"></div>
+<div class="crayon-plain-wrap"><textarea class="crayon-plain print-no" data-settings="dblclick" readonly="readonly" style="tab-size: 4; font-size: 14px !important; line-height: 26px !important; z-index: 0; opacity: 0; overflow: hidden;" wrap="soft">&lt;footer&gt;
+Tudo sobre os Pé-Grande &amp;copy; | 2020
+&lt;/footer&gt;</textarea></div>
+<div class="crayon-main" style="position: relative; z-index: 1; overflow: hidden;">
+<table class="crayon-table" style="">
+<tbody><tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content" style="font-size: 14px !important; line-height: 26px !important;"><div class="crayon-num" data-line="crayon-626aa16ccfe07444332311-1">1</div><div class="crayon-num" data-line="crayon-626aa16ccfe07444332311-2">2</div><div class="crayon-num" data-line="crayon-626aa16ccfe07444332311-3">3</div></div>
+</td>
+<td class="crayon-code"><div class="crayon-pre" style="font-size: 14px !important; line-height: 26px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-626aa16ccfe07444332311-1"><span class="crayon-r ">&lt;footer&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe07444332311-2"><span class="crayon-i ">Tudo sobre os Pé-Grande &amp;copy; | 2020</span></div><div class="crayon-line" id="crayon-626aa16ccfe07444332311-3"><span class="crayon-r ">&lt;/footer&gt;</span></div></div></td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+<h2>&lt;nav&gt;</h2>
+<p>A tag <code>&lt;nav&gt;</code>, como indica o próprio nome, representa uma <strong>navegação</strong> do site.</p>
+<p>“Ahh, mas se eu colocar uma lista não-ordenada com links, isso já não é uma navegação?”</p>
+<p>Sim, mas, <em>semanticamente</em>, ela pode não ser uma <strong>navegação principal</strong> ou muito importante da página em questão.</p>
+<p>Nem todos os links de um documento devem estar dentro de um elemento <code>&lt;nav&gt;</code>, que é destinado apenas para grupos importantes de links de navegação.</p>
+<p>Comumente, existe uma <code>&lt;nav&gt;</code> por documento, mas, dependendo da página, não é errado haver mais (desde que seguindo o conteúdo e sua semântica).</p>
+
+<div id="crayon-626aa16ccfe08582855620" class="crayon-syntax crayon-theme-monokai crayon-font-droid-sans-mono crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style="margin-top: 15px; margin-bottom: 15px; font-size: 14px !important; line-height: 26px !important; height: auto;">
+<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 14px !important; height: 21px !important; line-height: 21px !important; margin-top: -21px; display: none; position: absolute; z-index: 2;"><span class="crayon-title"></span>
+<div class="crayon-tools" style="font-size: 14px !important;height: 21px !important; line-height: 21px !important;"><div class="crayon-button crayon-nums-button crayon-pressed" title="Alternar números de linha"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-plain-button" title="Exibir código simples"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-wrap-button" title="Alternar quebras de linha"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code" style="display: none;"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-popup-button" title="Abrir código em nova janela"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><span class="crayon-language">XHTML</span></div></div>
+<div class="crayon-info" style="min-height: 21px !important; line-height: 21px !important;"></div>
+<div class="crayon-plain-wrap"><textarea class="crayon-plain print-no" data-settings="dblclick" readonly="readonly" style="tab-size: 4; font-size: 14px !important; line-height: 26px !important; z-index: 0; opacity: 0; overflow: hidden;" wrap="soft">&lt;nav&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Inicial&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Imagens e vídeos&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Notícias&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Relate seu avistamento&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;</textarea></div>
+<div class="crayon-main" style="position: relative; z-index: 1; overflow: hidden;">
+<table class="crayon-table" style="">
+<tbody><tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content" style="font-size: 14px !important; line-height: 26px !important;"><div class="crayon-num" data-line="crayon-626aa16ccfe08582855620-1">1</div><div class="crayon-num" data-line="crayon-626aa16ccfe08582855620-2">2</div><div class="crayon-num" data-line="crayon-626aa16ccfe08582855620-3">3</div><div class="crayon-num" data-line="crayon-626aa16ccfe08582855620-4">4</div><div class="crayon-num" data-line="crayon-626aa16ccfe08582855620-5">5</div><div class="crayon-num" data-line="crayon-626aa16ccfe08582855620-6">6</div><div class="crayon-num" data-line="crayon-626aa16ccfe08582855620-7">7</div><div class="crayon-num" data-line="crayon-626aa16ccfe08582855620-8">8</div></div>
+</td>
+<td class="crayon-code"><div class="crayon-pre" style="font-size: 14px !important; line-height: 26px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-626aa16ccfe08582855620-1"><span class="crayon-r ">&lt;nav&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe08582855620-2"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;ul&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe08582855620-3"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;li&gt;</span><span class="crayon-r ">&lt;a </span><span class="crayon-e ">href</span><span class="crayon-o">=</span><span class="crayon-s ">"#"</span><span class="crayon-r ">&gt;</span><span class="crayon-i ">Inicial</span><span class="crayon-r ">&lt;/a&gt;</span><span class="crayon-r ">&lt;/li&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe08582855620-4"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;li&gt;</span><span class="crayon-r ">&lt;a </span><span class="crayon-e ">href</span><span class="crayon-o">=</span><span class="crayon-s ">"#"</span><span class="crayon-r ">&gt;</span><span class="crayon-i ">Imagens e vídeos</span><span class="crayon-r ">&lt;/a&gt;</span><span class="crayon-r ">&lt;/li&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe08582855620-5"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;li&gt;</span><span class="crayon-r ">&lt;a </span><span class="crayon-e ">href</span><span class="crayon-o">=</span><span class="crayon-s ">"#"</span><span class="crayon-r ">&gt;</span><span class="crayon-i ">Notícias</span><span class="crayon-r ">&lt;/a&gt;</span><span class="crayon-r ">&lt;/li&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe08582855620-6"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;li&gt;</span><span class="crayon-r ">&lt;a </span><span class="crayon-e ">href</span><span class="crayon-o">=</span><span class="crayon-s ">"#"</span><span class="crayon-r ">&gt;</span><span class="crayon-i ">Relate seu avistamento</span><span class="crayon-r ">&lt;/a&gt;</span><span class="crayon-r ">&lt;/li&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe08582855620-7"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;/ul&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe08582855620-8"><span class="crayon-r ">&lt;/nav&gt;</span></div></div></td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+<p>Às vezes, tornar um site mais semântico é questão de envolver conteúdos já existentes com uma nova tag. 😄</p>
+<h2>&lt;section&gt;</h2>
+<p>A tag <code>&lt;section&gt;</code> existe para agrupar conteúdos por temas ou assuntos, representando uma <strong>seção</strong> daquela página do site ou tela do aplicativo.</p>
+<p>Pode haver múltiplos elementos <code>&lt;section&gt;</code> por página (afinal, é possível ter várias seções) e eles podem ter seus próprios <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code> e <code>&lt;aside&gt;</code>.</p>
+<p>O interessante é que, por atribuir significado de seção dentro de uma
+ página, o elemento pode conter títulos e subtítulos sem ferir a 
+semântica.</p>
+
+<div id="crayon-626aa16ccfe0e602896691" class="crayon-syntax crayon-theme-monokai crayon-font-droid-sans-mono crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style="margin-top: 15px; margin-bottom: 15px; font-size: 14px !important; line-height: 26px !important; height: auto;">
+<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 14px !important; height: 21px !important; line-height: 21px !important; margin-top: -21px; display: none; position: absolute; z-index: 2;"><span class="crayon-title"></span>
+<div class="crayon-tools" style="font-size: 14px !important;height: 21px !important; line-height: 21px !important;"><div class="crayon-button crayon-nums-button crayon-pressed" title="Alternar números de linha"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-plain-button" title="Exibir código simples"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-wrap-button" title="Alternar quebras de linha"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code" style="display: none;"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-popup-button" title="Abrir código em nova janela"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><span class="crayon-language">XHTML</span></div></div>
+<div class="crayon-info" style="min-height: 21px !important; line-height: 21px !important;"></div>
+<div class="crayon-plain-wrap"><textarea class="crayon-plain print-no" data-settings="dblclick" readonly="readonly" style="tab-size: 4; font-size: 14px !important; line-height: 26px !important; z-index: 0; opacity: 0; overflow: hidden;" wrap="soft">&lt;main&gt;
+  &lt;section&gt;
+    &lt;h2&gt;Características&lt;/h2&gt;
+    &lt;p&gt;...&lt;/p&gt;
+  &lt;/section&gt;
+
+  &lt;section&gt;
+    &lt;h2&gt;Teoria evolutiva&lt;/h2&gt;
+    &lt;p&gt;...&lt;/p&gt;
+  &lt;/section&gt;
+
+  &lt;section&gt;
+    &lt;h2&gt;Últimas notícias&lt;/h2&gt;
+    &lt;p&gt;...&lt;/p&gt;
+  &lt;/section&gt;
+&lt;/main&gt;</textarea></div>
+<div class="crayon-main" style="position: relative; z-index: 1; overflow: hidden;">
+<table class="crayon-table" style="">
+<tbody><tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content" style="font-size: 14px !important; line-height: 26px !important;"><div class="crayon-num" data-line="crayon-626aa16ccfe0e602896691-1">1</div><div class="crayon-num" data-line="crayon-626aa16ccfe0e602896691-2">2</div><div class="crayon-num" data-line="crayon-626aa16ccfe0e602896691-3">3</div><div class="crayon-num" data-line="crayon-626aa16ccfe0e602896691-4">4</div><div class="crayon-num" data-line="crayon-626aa16ccfe0e602896691-5">5</div><div class="crayon-num" data-line="crayon-626aa16ccfe0e602896691-6">6</div><div class="crayon-num" data-line="crayon-626aa16ccfe0e602896691-7">7</div><div class="crayon-num" data-line="crayon-626aa16ccfe0e602896691-8">8</div><div class="crayon-num" data-line="crayon-626aa16ccfe0e602896691-9">9</div><div class="crayon-num" data-line="crayon-626aa16ccfe0e602896691-10">10</div><div class="crayon-num" data-line="crayon-626aa16ccfe0e602896691-11">11</div><div class="crayon-num" data-line="crayon-626aa16ccfe0e602896691-12">12</div><div class="crayon-num" data-line="crayon-626aa16ccfe0e602896691-13">13</div><div class="crayon-num" data-line="crayon-626aa16ccfe0e602896691-14">14</div><div class="crayon-num" data-line="crayon-626aa16ccfe0e602896691-15">15</div><div class="crayon-num" data-line="crayon-626aa16ccfe0e602896691-16">16</div></div>
+</td>
+<td class="crayon-code"><div class="crayon-pre" style="font-size: 14px !important; line-height: 26px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-626aa16ccfe0e602896691-1"><span class="crayon-r ">&lt;main&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe0e602896691-2"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;section&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe0e602896691-3"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;h2&gt;</span><span class="crayon-i ">Características</span><span class="crayon-r ">&lt;/h2&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe0e602896691-4"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;p&gt;</span><span class="crayon-i ">...</span><span class="crayon-r ">&lt;/p&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe0e602896691-5"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;/section&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe0e602896691-6">&nbsp;</div><div class="crayon-line" id="crayon-626aa16ccfe0e602896691-7"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;section&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe0e602896691-8"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;h2&gt;</span><span class="crayon-i ">Teoria evolutiva</span><span class="crayon-r ">&lt;/h2&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe0e602896691-9"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;p&gt;</span><span class="crayon-i ">...</span><span class="crayon-r ">&lt;/p&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe0e602896691-10"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;/section&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe0e602896691-11">&nbsp;</div><div class="crayon-line" id="crayon-626aa16ccfe0e602896691-12"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;section&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe0e602896691-13"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;h2&gt;</span><span class="crayon-i ">Últimas notícias</span><span class="crayon-r ">&lt;/h2&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe0e602896691-14"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;p&gt;</span><span class="crayon-i ">...</span><span class="crayon-r ">&lt;/p&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe0e602896691-15"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;/section&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe0e602896691-16"><span class="crayon-r ">&lt;/main&gt;</span></div></div></td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+<h3>A polêmica sobre múltiplos <code>&lt;h1&gt;</code> na semântica Web</h3>
+<p>Existe uma certa polêmica em relação ao uso de múltiplos <code>&lt;h1&gt;</code> em um documento HTML.</p>
+<p>Alguns advogam que, se estiver tudo bem contextualizado e semanticamente bem feito, elementos <code>&lt;section&gt;</code> (e <code>&lt;article&gt;</code>, que será visto a seguir) podem conter seus próprios <code>&lt;h1&gt;</code>.</p>
+<p>Outros, por sua vez, provavelmente devs da velha-guarda, preferimos usar somente um <code>&lt;h1&gt;</code> e subtitularizar nas demais tags semânticas (como no exemplo mostrado).</p>
+<p>Segundo <a rel="noreferrer noopener nofollow" href="https://neilpatel.com/br/blog/os-headings-realmente-impactam-os-rankings/" target="_blank">um experimento recente realizado por Neil Patel</a>, pelo menos, a nível de SEO, parece que não faz tanta diferença:</p>
+<blockquote class="wp-block-quote"><p>Pelo que os dados mostram, os&nbsp; headings&nbsp;não parecem ter&nbsp;um grande impacto nos rankings.</p><p>Pelo
+ que os dados mostram, o Google se preocupa com a usabilidade. Ter 
+tamanhos de fonte diferentes em uma página, ajuda a informar ao leitor 
+quais elementos são mais importantes.</p></blockquote>
+<p>Entretanto, devemos ter em mente que usar tags corretamente (e 
+semanticamente) não é uma prática que traz benefícios somente à SEO, mas
+ aprimora a acessibilidade, usabilidade, e outros — fora o fato de que 
+existem outros mecanismos de busca fora Google que, não necessariamente,
+ encaram os dados da mesma forma.</p>
+<h2>&lt;article&gt;</h2>
+<p>O elemento <code>&lt;article&gt;</code> serve para porções do conteúdo que têm seu sentido próprio; é auto-contido.</p>
+<p>Em outras palavras, conteúdos que poderiam ser considerados 
+isoladamente da página: se você retirá-los do contexto da página, ainda 
+assim, de alguma forma, eles fazem sentido.</p>
+<p>Apesar do que pode sugerir nome, a tag não se destina a ser usada 
+somente em artigos, mas a qualquer conteúdo que possa ser considerado de
+ maneira independente, como um comentário, artigo, widget interativo 
+etc.</p>
+
+<div id="crayon-626aa16ccfe10436979024" class="crayon-syntax crayon-theme-monokai crayon-font-droid-sans-mono crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style="margin-top: 15px; margin-bottom: 15px; font-size: 14px !important; line-height: 26px !important; height: auto;">
+<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 14px !important; height: 21px !important; line-height: 21px !important; margin-top: -21px; display: none; position: absolute; z-index: 2;"><span class="crayon-title"></span>
+<div class="crayon-tools" style="font-size: 14px !important;height: 21px !important; line-height: 21px !important;"><div class="crayon-button crayon-nums-button crayon-pressed" title="Alternar números de linha"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-plain-button" title="Exibir código simples"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-wrap-button" title="Alternar quebras de linha"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code" style="display: none;"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-popup-button" title="Abrir código em nova janela"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><span class="crayon-language">XHTML</span></div></div>
+<div class="crayon-info" style="min-height: 21px !important; line-height: 21px !important;"></div>
+<div class="crayon-plain-wrap"><textarea class="crayon-plain print-no" data-settings="dblclick" readonly="readonly" style="tab-size: 4; font-size: 14px !important; line-height: 26px !important; z-index: 0; opacity: 0; overflow: hidden;" wrap="soft">&lt;section&gt;
+  &lt;h2&gt;Últimas notícias&lt;/h2&gt;
+  &lt;p&gt;...&lt;/p&gt;
+
+  &lt;article&gt;
+    &lt;h3&gt;Cientistas russos vão em busca do pé-grande&lt;/h3&gt;
+    &lt;p&gt;A expedição terá início no final de 2020.&lt;/p&gt;
+    &lt;a href="#"&gt;Saiba mais&lt;/a&gt;
+  &lt;/article&gt;
+
+  &lt;article&gt;
+    &lt;h3&gt;O que fazer ao avistar um Pé-grande?&lt;/h3&gt;
+    &lt;p&gt;Saiba o que é recomendado fazer ao dar de cada com o dito cujo.&lt;/p&gt;
+    &lt;a href="#"&gt;Saiba mais&lt;/a&gt;
+  &lt;/article&gt;
+
+  &lt;article&gt;
+    &lt;h3&gt;NASA estaria ocultando evidências?&lt;/h3&gt;
+    &lt;p&gt;Uma origem improvável, mas possível...&lt;/p&gt;
+    &lt;a href="#"&gt;Saiba mais&lt;/a&gt;
+  &lt;/article&gt;
+&lt;/section&gt;
+</textarea></div>
+<div class="crayon-main" style="position: relative; z-index: 1; overflow: hidden;">
+<table class="crayon-table" style="">
+<tbody><tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content" style="font-size: 14px !important; line-height: 26px !important;"><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-1">1</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-2">2</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-3">3</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-4">4</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-5">5</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-6">6</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-7">7</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-8">8</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-9">9</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-10">10</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-11">11</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-12">12</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-13">13</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-14">14</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-15">15</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-16">16</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-17">17</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-18">18</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-19">19</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-20">20</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-21">21</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-22">22</div><div class="crayon-num" data-line="crayon-626aa16ccfe10436979024-23">23</div></div>
+</td>
+<td class="crayon-code"><div class="crayon-pre" style="font-size: 14px !important; line-height: 26px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-626aa16ccfe10436979024-1"><span class="crayon-r ">&lt;section&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-2"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;h2&gt;</span><span class="crayon-i ">Últimas notícias</span><span class="crayon-r ">&lt;/h2&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-3"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;p&gt;</span><span class="crayon-i ">...</span><span class="crayon-r ">&lt;/p&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-4">&nbsp;</div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-5"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;article&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-6"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;h3&gt;</span><span class="crayon-i ">Cientistas russos vão em busca do pé-grande</span><span class="crayon-r ">&lt;/h3&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-7"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;p&gt;</span><span class="crayon-i ">A expedição terá início no final de 2020.</span><span class="crayon-r ">&lt;/p&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-8"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;a </span><span class="crayon-e ">href</span><span class="crayon-o">=</span><span class="crayon-s ">"#"</span><span class="crayon-r ">&gt;</span><span class="crayon-i ">Saiba mais</span><span class="crayon-r ">&lt;/a&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-9"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;/article&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-10">&nbsp;</div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-11"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;article&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-12"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;h3&gt;</span><span class="crayon-i ">O que fazer ao avistar um Pé-grande?</span><span class="crayon-r ">&lt;/h3&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-13"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;p&gt;</span><span class="crayon-i ">Saiba o que é recomendado fazer ao dar de cada com o dito cujo.</span><span class="crayon-r ">&lt;/p&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-14"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;a </span><span class="crayon-e ">href</span><span class="crayon-o">=</span><span class="crayon-s ">"#"</span><span class="crayon-r ">&gt;</span><span class="crayon-i ">Saiba mais</span><span class="crayon-r ">&lt;/a&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-15"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;/article&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-16">&nbsp;</div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-17"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;article&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-18"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;h3&gt;</span><span class="crayon-i ">NASA estaria ocultando evidências?</span><span class="crayon-r ">&lt;/h3&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-19"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;p&gt;</span><span class="crayon-i ">Uma origem improvável, mas possível...</span><span class="crayon-r ">&lt;/p&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-20"><span class="crayon-i ">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r ">&lt;a </span><span class="crayon-e ">href</span><span class="crayon-o">=</span><span class="crayon-s ">"#"</span><span class="crayon-r ">&gt;</span><span class="crayon-i ">Saiba mais</span><span class="crayon-r ">&lt;/a&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-21"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;/article&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-22"><span class="crayon-r ">&lt;/section&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe10436979024-23">&nbsp;</div></div></td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+<h3>Web Semântica: &lt;section&gt; x &lt;article&gt;</h3>
+<p>Muitos ficam em dúvida sobre quando usar <code>&lt;section&gt;</code> e <code>&lt;article&gt;</code> e se é permitido o aninhamento de um dentro do outro.</p>
+<p>Depois de conhecer melhor a <em>razão de existir</em> e <em>sentido</em> de ambas, fica mais fácil deduzir que:</p>
+<ul><li>Usa-se uma ou outra tag a depender do sentido/semântica que se quer atribuir</li><li>Não há problema algum em aninhar <code>&lt;article&gt;</code> em <code>&lt;section&gt;</code> ou vice-versa, desde que faça sentido dentro de uma abordagem semântica </li></ul>
+<h2>&lt;aside&gt;</h2>
+<p><code>&lt;aside&gt;</code> se destina a receber conteúdo relacionado 
+ao contexto em que a tag se encontra. O importante a notar é que se 
+trata de um conteúdo secundário: uma espécie de observação ou 
+complemento; algo tangencialmente relacionado.</p>
+<p>Se estiver dentro de uma <code>&lt;section&gt;</code> ou <code>&lt;article&gt;</code>, é relacionado a ela; se for filho imediato de <code>&lt;body&gt;</code>, é um conteúdo relacionado geral e; assim por diante.</p>
+<p>Evidentemente, pode haver vários <code>&lt;aside&gt;</code> por 
+página, já que é o conteúdo que vai ditar o uso semântico correto do 
+elemento e, a depender do tópico, vários podem ser necessários.</p>
+<p>Dica para saber se é ou não <code>&lt;aside&gt;</code>: pergunte-se “Isso é necessário ou obrigatório para o entendimento do assunto que está sendo tratado?”.</p>
+
+<div id="crayon-626aa16ccfe14324109971" class="crayon-syntax crayon-theme-monokai crayon-font-droid-sans-mono crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style="margin-top: 15px; margin-bottom: 15px; font-size: 14px !important; line-height: 26px !important; height: auto;">
+<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 14px !important; height: 21px !important; line-height: 21px !important; margin-top: -21px; display: none; position: absolute; z-index: 2;"><span class="crayon-title"></span>
+<div class="crayon-tools" style="font-size: 14px !important;height: 21px !important; line-height: 21px !important;"><div class="crayon-button crayon-nums-button crayon-pressed" title="Alternar números de linha"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-plain-button" title="Exibir código simples"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-wrap-button" title="Alternar quebras de linha"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code" style="display: none;"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><div class="crayon-button crayon-popup-button" title="Abrir código em nova janela"><div class="crayon-button-icon" style="background-size: 48px 128px; background-image: url(&quot;https://desenvolvimentoparaweb.com/app/plugins/crayon-syntax-highlighter/css/images/toolbar/buttons@2x.png&quot;);"></div></div><span class="crayon-language">XHTML</span></div></div>
+<div class="crayon-info" style="min-height: 21px !important; line-height: 21px !important;"></div>
+<div class="crayon-plain-wrap"><textarea class="crayon-plain print-no" data-settings="dblclick" readonly="readonly" style="tab-size: 4; font-size: 14px !important; line-height: 26px !important; z-index: 0; opacity: 0; overflow: hidden;" wrap="soft">&lt;aside&gt;
+  &lt;p&gt;Assine nossa newsletter para receber notícias sobre o Pé-grande:&lt;/p&gt;
+  &lt;form&gt;...&lt;/form&gt;
+&lt;/aside&gt;</textarea></div>
+<div class="crayon-main" style="position: relative; z-index: 1; overflow: hidden;">
+<table class="crayon-table" style="">
+<tbody><tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content" style="font-size: 14px !important; line-height: 26px !important;"><div class="crayon-num" data-line="crayon-626aa16ccfe14324109971-1">1</div><div class="crayon-num" data-line="crayon-626aa16ccfe14324109971-2">2</div><div class="crayon-num" data-line="crayon-626aa16ccfe14324109971-3">3</div><div class="crayon-num" data-line="crayon-626aa16ccfe14324109971-4">4</div></div>
+</td>
+<td class="crayon-code"><div class="crayon-pre" style="font-size: 14px !important; line-height: 26px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-626aa16ccfe14324109971-1"><span class="crayon-r ">&lt;aside&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe14324109971-2"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;p&gt;</span><span class="crayon-i ">Assine nossa newsletter para receber notícias sobre o Pé-grande:</span><span class="crayon-r ">&lt;/p&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe14324109971-3"><span class="crayon-i ">&nbsp;&nbsp;</span><span class="crayon-r ">&lt;form&gt;</span><span class="crayon-i ">...</span><span class="crayon-r ">&lt;/form&gt;</span></div><div class="crayon-line" id="crayon-626aa16ccfe14324109971-4"><span class="crayon-r ">&lt;/aside&gt;</span></div></div></td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+<h2>Conclusão</h2>
+<p>No que muitos usam <code>&lt;div&gt;</code> para a divisão de áreas 
+de site e apps, a semântica Web pode ser aprimorada com a simples 
+substituição para tags com mais significado.</p>
+<p>Usar tags apropriadas no HTML não é “escovar bits” ou uma questão meramente acadêmica. <strong>Desenvolver sites observando diretrizes de uma Web Semântica proporciona melhorias práticas e objetivas.</strong></p>
+<p>Esse é somente a pontinha do aicebergue quando o assunto é <strong>Web Semântica</strong> (<strong>Semantic Web</strong>),
+ mas se você ainda não usa essas tags (ou as usa de maneira equivocada, 
+comece a atribuí-las a seus sites agora mesmo para ver um ganho 
+considerável em usabilidade, acessibilidade, SEO e muito mais.</p>
+</div>
+<aside class="s-related-articles js-related-articles">
+<div class="yuzo_related_post">
+<div class="yuzo_wraps">
+<div class="relatedthumb">
+<a href="https://desenvolvimentoparaweb.com/css/css-shorthands-dica-de-ouro/">
+<div class="yuzo-img-wrap">
+<div class="yuzo-img lazyload" data-bg="https://storage.googleapis.com/dpw/app/uploads/2022/03/css-shorthands-dica-de-ouro-300x200.jpg"></div>
+</div>
+<span class="yuzo__text--title">CSS Shorthands: Dica de Ouro</span>
+</a>
+</div>
+
+<div class="relatedthumb">
+<a href="https://desenvolvimentoparaweb.com/miscelanea/a-grande-divisao-front-end/">
+<div class="yuzo-img-wrap">
+<div class="yuzo-img lazyload" data-bg="https://storage.googleapis.com/dpw/app/uploads/2022/02/frontend-engineer-designer-grande-divisao-front-end-300x199.jpg"></div>
+</div>
+<span class="yuzo__text--title">A Grande Divisão: front end designer e front end engineer⁠</span>
+</a>
+</div>
+<div class="relatedthumb">
+<a href="https://desenvolvimentoparaweb.com/css/acessibilidade-css/">
+<div class="yuzo-img-wrap">
+<div class="yuzo-img lazyload" data-bg="https://storage.googleapis.com/dpw/app/uploads/2021/10/acessibilidade-css-a11y-300x199.jpg"></div>
+</div>
+<span class="yuzo__text--title">Acessibilidade e CSS</span>
+</a>
+</div>
+<div class="relatedthumb">
+<a href="https://desenvolvimentoparaweb.com/css/css-acessivel-a11y/">
+<div class="yuzo-img-wrap">
+<div class="yuzo-img lazyload" data-bg="https://storage.googleapis.com/dpw/app/uploads/2020/07/css-acessibilidade-acessivel-a11y-300x210.jpg"></div>
+</div>
+<span class="yuzo__text--title">CSS acessível</span>
+</a>
+</div>
+</div>
+</div>
+</aside>
+<aside id="disqus_thread" class="l-comments">
+</aside>
+<script>
+    var disqus_config = function () {
+        this.page.url        = "https://desenvolvimentoparaweb.com/html/web-semantica-7-alternativas-div/";
+        this.page.identifier = "6118";
+        this.page.title      = "7 alternativas à &lt;div&gt; para uma Web mais semântica";
+    };
+  </script>
+</article>
+</main>
+<aside class="l-social-share">
+<a href="https://www.facebook.com/desenvolvweb/" title="Facebook do dpw" class="c-social-share c-social-share--facebook" target="_blank" rel="nofollow noopener">
+<img data-src="https://storage.googleapis.com/dpw/app/uploads/2019/01/facebook_02994350.svg?v=1" class="icon lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/facebook_02994350.svg"><noscript><img src="https://storage.googleapis.com/dpw/app/uploads/2019/01/facebook_02994350.svg" class="icon" /></noscript>
+</a>
+<a href="https://www.instagram.com/desenvolvweb/" title="Instagram do dpw" class="c-social-share c-social-share--instagram" target="_blank" rel="nofollow noopener">
+<img data-src="https://storage.googleapis.com/dpw/app/uploads/2019/02/iconmonstr-instagram-11.svg?v=1" class="icon lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/iconmonstr-instagram-11.svg"><noscript><img src="https://storage.googleapis.com/dpw/app/uploads/2019/02/iconmonstr-instagram-11.svg" class="icon" /></noscript>
+</a>
+<a href="https://www.youtube.com/channel/UCdHcHgSrWidiOg-mNFNB1Nw" title="YouTube do dpw" class="c-social-share c-social-share--youtube" target="_blank" rel="nofollow noopener">
+<img data-src="https://storage.googleapis.com/dpw/app/uploads/2019/01/youtube.svg?v=1" class="icon lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/youtube.svg"><noscript><img src="https://storage.googleapis.com/dpw/app/uploads/2019/01/youtube.svg" class="icon" /></noscript>
+</a>
+<a href="https://twitter.com/desenvolvweb" title="Twitter do dpw" class="c-social-share c-social-share--twitter" target="_blank" rel="nofollow noopener">
+<img data-src="https://storage.googleapis.com/dpw/app/uploads/2019/01/twitter_018c7f54.svg?v=1" class="icon lazyloaded" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/twitter_018c7f54.svg"><noscript><img src="https://storage.googleapis.com/dpw/app/uploads/2019/01/twitter_018c7f54.svg" class="icon" /></noscript>
+</a>
+</aside>
+<aside class="l-search js-search">
+<form method="get" class="c-search-form" action="https://desenvolvimentoparaweb.com/" role="search">
+<label>
+<span class="screen-reader-text">Buscar por...</span>
+<input type="search" name="s" placeholder="Buscar por..." class="c-search-form__field js-search-form-field">
+</label>
+</form>
+</aside>
+<span class="l-search-helper js-search-helper"></span>
+<footer class="l-footer js-footer">
+<section class="l-footer-all-topics">
+<h2 class="l-footer-all-topics__title">Conheça os tópicos do <strong>desenvolvimento para web</strong></h2>
+<ul class="c-footer-topics">
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/categoria/css/" class="c-footer-topics__link" title="102 artigos em &quot;CSS&quot;" rel="nofollow">
+CSS
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/categoria/design/" class="c-footer-topics__link" title="44 artigos em &quot;Design&quot;" rel="nofollow">
+Design
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/categoria/html/" class="c-footer-topics__link" title="23 artigos em &quot;HTML&quot;" rel="nofollow">
+HTML
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/categoria/indicacoes/" class="c-footer-topics__link" title="52 artigos em &quot;Indicações&quot;" rel="nofollow">
+Indicações
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/categoria/javascript/" class="c-footer-topics__link" title="49 artigos em &quot;JavaScript&quot;" rel="nofollow">
+JavaScript
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/categoria/miscelanea/" class="c-footer-topics__link" title="73 artigos em &quot;Miscelânea&quot;" rel="nofollow">
+Miscelânea
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/categoria/php/" class="c-footer-topics__link" title="9 artigos em &quot;PHP&quot;" rel="nofollow">
+PHP
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/categoria/seo/" class="c-footer-topics__link" title="13 artigos em &quot;SEO&quot;" rel="nofollow">
+SEO
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/categoria/ux/" class="c-footer-topics__link" title="44 artigos em &quot;UX&quot;" rel="nofollow">
+UX
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/categoria/wordpress/" class="c-footer-topics__link" title="10 artigos em &quot;WordPress&quot;" rel="nofollow">
+WordPress
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/acessibilidade/" class="c-footer-topics__link" title="11 artigos em &quot;Acessibilidade&quot;" rel="nofollow">
+Acessibilidade
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/analise/" class="c-footer-topics__link" title="79 artigos em &quot;Análise&quot;" rel="nofollow">
+Análise
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/animacao-css/" class="c-footer-topics__link" title="4 artigos em &quot;Animação CSS&quot;" rel="nofollow">
+Animação CSS
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/api/" class="c-footer-topics__link" title="3 artigos em &quot;API&quot;" rel="nofollow">
+API
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/arquitetura-da-informacao/" class="c-footer-topics__link" title="3 artigos em &quot;Arquitetura da Informação&quot;" rel="nofollow">
+Arquitetura da Informação
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/basico-da-web/" class="c-footer-topics__link" title="25 artigos em &quot;Básico da Web&quot;" rel="nofollow">
+Básico da Web
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/boas-praticas/" class="c-footer-topics__link" title="4 artigos em &quot;Boas Práticas&quot;" rel="nofollow">
+Boas Práticas
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/carreira/" class="c-footer-topics__link" title="31 artigos em &quot;Carreira&quot;" rel="nofollow">
+Carreira
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/clientes/" class="c-footer-topics__link" title="21 artigos em &quot;Clientes&quot;" rel="nofollow">
+Clientes
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/css-grid/" class="c-footer-topics__link" title="11 artigos em &quot;CSS Grid&quot;" rel="nofollow">
+CSS Grid
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/dpw-expo/" class="c-footer-topics__link" title="36 artigos em &quot;dpw expo&quot;" rel="nofollow">
+dpw expo
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/entrevista/" class="c-footer-topics__link" title="1 artigos em &quot;Entrevista&quot;" rel="nofollow">
+Entrevista
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/estrategia-de-conteudo/" class="c-footer-topics__link" title="4 artigos em &quot;Estratégia de Conteúdo&quot;" rel="nofollow">
+Estratégia de Conteúdo
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/ferramentas/" class="c-footer-topics__link" title="63 artigos em &quot;Ferramentas&quot;" rel="nofollow">
+Ferramentas
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/flexbox/" class="c-footer-topics__link" title="5 artigos em &quot;Flexbox&quot;" rel="nofollow">
+Flexbox
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/gamificacao/" class="c-footer-topics__link" title="3 artigos em &quot;Gamificação&quot;" rel="nofollow">
+Gamificação
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/interface/" class="c-footer-topics__link" title="57 artigos em &quot;Interface&quot;" rel="nofollow">
+Interface
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/jquery/" class="c-footer-topics__link" title="5 artigos em &quot;jQuery&quot;" rel="nofollow">
+jQuery
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/layout/" class="c-footer-topics__link" title="37 artigos em &quot;Layout&quot;" rel="nofollow">
+Layout
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/motion-ui/" class="c-footer-topics__link" title="9 artigos em &quot;Motion UI&quot;" rel="nofollow">
+Motion UI
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/performance/" class="c-footer-topics__link" title="49 artigos em &quot;Performance&quot;" rel="nofollow">
+Performance
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/planejamento/" class="c-footer-topics__link" title="96 artigos em &quot;Planejamento&quot;" rel="nofollow">
+Planejamento
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/portfolio/" class="c-footer-topics__link" title="17 artigos em &quot;Portfolio&quot;" rel="nofollow">
+Portfolio
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/react/" class="c-footer-topics__link" title="7 artigos em &quot;React&quot;" rel="nofollow">
+React
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/resenha/" class="c-footer-topics__link" title="2 artigos em &quot;Resenha&quot;" rel="nofollow">
+Resenha
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/sass/" class="c-footer-topics__link" title="11 artigos em &quot;Sass&quot;" rel="nofollow">
+Sass
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/seguranca/" class="c-footer-topics__link" title="5 artigos em &quot;Segurança&quot;" rel="nofollow">
+Segurança
+</a>
+ </li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/series/" class="c-footer-topics__link" title="16 artigos em &quot;Séries&quot;" rel="nofollow">
+Séries
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/svelte/" class="c-footer-topics__link" title="1 artigos em &quot;Svelte&quot;" rel="nofollow">
+Svelte
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/tipografia/" class="c-footer-topics__link" title="6 artigos em &quot;Tipografia&quot;" rel="nofollow">
+Tipografia
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/usabilidade/" class="c-footer-topics__link" title="18 artigos em &quot;Usabilidade&quot;" rel="nofollow">
+Usabilidade
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/web-design/" class="c-footer-topics__link" title="29 artigos em &quot;Web Design&quot;" rel="nofollow">
+Web Design
+</a>
+</li>
+<li class="c-footer-topics__item">
+<a href="https://desenvolvimentoparaweb.com/tag/web-design-responsivo/" class="c-footer-topics__link" title="46 artigos em &quot;Web Design Responsivo&quot;" rel="nofollow">
+Web Design Responsivo
+</a>
+</li></ul>
+</section>
+<section class="l-footer-institutional">
+<a href="https://desenvolvimentoparaweb.com/" rel="nofollow">
+<img data-src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/desenvolvimento-para-web-logo_9b02c264.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="170"><noscript><img src="https://desenvolvimentoparaweb.com/app/themes/dpw2019/dist/images/desenvolvimento-para-web-logo_9b02c264.png" width="170" /></noscript>
+</a>
+<section class="c-social-pages">
+<a href="https://www.facebook.com/desenvolvweb/" title="Facebook do dpw" target="_blank" class="c-social-pages__item" rel="nofollow noopener">
+<img style="filter: invert(26%) sepia(7%) saturate(6601%) hue-rotate(186deg) brightness(112%) contrast(80%)" data-src="https://storage.googleapis.com/dpw/app/uploads/2019/01/facebook_02994350.svg" class="c-social-pages__icon lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="20"><noscript><img
+        style="filter: invert(26%) sepia(7%) saturate(6601%) hue-rotate(186deg) brightness(112%) contrast(80%)"
+        width="20"
+        src="https://storage.googleapis.com/dpw/app/uploads/2019/01/facebook_02994350.svg"
+        class="c-social-pages__icon"
+      /></noscript>
+<span>Facebook do dpw</span>
+</a>
+<a href="https://www.instagram.com/desenvolvweb/" title="Instagram do dpw" target="_blank" class="c-social-pages__item" rel="nofollow noopener">
+<img style="filter: invert(26%) sepia(97%) saturate(1423%) hue-rotate(291deg) brightness(87%) contrast(99%)" data-src="https://storage.googleapis.com/dpw/app/uploads/2019/02/iconmonstr-instagram-11.svg" class="c-social-pages__icon lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="20"><noscript><img
+        style="filter: invert(26%) sepia(97%) saturate(1423%) hue-rotate(291deg) brightness(87%) contrast(99%)"
+        width="20"
+        src="https://storage.googleapis.com/dpw/app/uploads/2019/02/iconmonstr-instagram-11.svg"
+        class="c-social-pages__icon"
+      /></noscript>
+<span>Instagram do dpw</span>
+</a>
+<a href="https://www.youtube.com/channel/UCdHcHgSrWidiOg-mNFNB1Nw" title="YouTube do dpw" target="_blank" class="c-social-pages__item" rel="nofollow noopener">
+<img style="filter: invert(17%) sepia(86%) saturate(6774%) hue-rotate(358deg) brightness(104%) contrast(119%)" data-src="https://storage.googleapis.com/dpw/app/uploads/2019/01/youtube.svg" class="c-social-pages__icon lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="20"><noscript><img
+        style="filter: invert(17%) sepia(86%) saturate(6774%) hue-rotate(358deg) brightness(104%) contrast(119%)"
+        width="20"
+        src="https://storage.googleapis.com/dpw/app/uploads/2019/01/youtube.svg"
+        class="c-social-pages__icon"
+      /></noscript>
+<span>YouTube do dpw</span>
+</a>
+<a href="https://twitter.com/desenvolvweb" title="Twitter do dpw" target="_blank" class="c-social-pages__item" rel="nofollow noopener">
+<img style="filter: invert(49%) sepia(98%) saturate(435%) hue-rotate(163deg) brightness(92%) contrast(106%)" data-src="https://storage.googleapis.com/dpw/app/uploads/2019/01/twitter_018c7f54.svg" class="c-social-pages__icon lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="20"><noscript><img
+        style="filter: invert(49%) sepia(98%) saturate(435%) hue-rotate(163deg) brightness(92%) contrast(106%)"
+        width="20"
+        src="https://storage.googleapis.com/dpw/app/uploads/2019/01/twitter_018c7f54.svg"
+        class="c-social-pages__icon"
+      /></noscript>
+<span>Twitter do dpw</span>
+</a>
+</section>
+<nav class="s-footer-nav">
+</nav>
+<p class="l-footer-institutional__copyleft">
+<strong>desenvolvimento para web</strong> é mantido pela
+<a href="https://webfatorial.com/" class="l-footer__link" rel="nofollow">webfatorial</a> e usa a licença
+<a href="http://www.wtfpl.net/" class="l-footer__link" rel="nofollow noopener">WTFPL</a>.
+</p>
+</section>
+</footer>
+<div class="hustle-ui hustle-slidein hustle-palette--gray_slate hustle_module_id_5 module_id_5 hustle-slidein-position--south hustle-show" data-id="5" data-render-id="0" data-tracking="disabled" data-position="s" data-close-delay="false" style="opacity: 1; padding-top: 40.8px; padding-bottom: 0px;"><div class="hustle-slidein-content hustle-animate-in" style="bottom: 0px;"><div class="hustle-info hustle-info--stacked" style="max-height: calc(-40.8px + 100vh);"><div class="hustle-layout"><div class="hustle-layout-header" style="top: -40.8px;"><button class="hustle-button-icon hustle-button-close">
+<span class="hustle-icon-close" aria-hidden="true"></span>
+<span class="hustle-screen-reader">Close this module</span>
+</button></div><div class="hustle-layout-body"><div class="hustle-content"><div class="hustle-content-wrap"><div class="hustle-group-content"><p>Usamos
+ cookies para melhorar sua experiência e para ajudar a entender como 
+nosso site é usado. Ao utilizar este site, você aceita o uso de cookies.
+ Consulte nossa política de privacidade para obter mais informações.</p></div></div></div></div></div></div></div></div><script>
+    document.addEventListener('lazybeforeunveil', function(e) {
+        var backgroundUrl = e.target.getAttribute('data-bg')
+
+        if (backgroundUrl) {
+          e.target.style.backgroundImage = 'url(' + backgroundUrl + ')'
+        }
+    })
+</script><link rel="stylesheet" id="hustle-fonts-css" href="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/css.css" type="text/css" media="all">
+<link rel="stylesheet" id="hustle_icons-css" href="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/1d43d5293ee9c51dfd47cc2414856fa4.css" type="text/css" media="all">
+<link rel="stylesheet" id="hustle_global-css" href="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/91892f11e034ff22de56ab460344329b.css" type="text/css" media="all">
+<link rel="stylesheet" id="hustle_info-css" href="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/534e7a578e8381d791b8a7f53b44607e.css" type="text/css" media="all">
+<link rel="stylesheet" id="hustle_slidein-css" href="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/2e47be18e979936fef758d4e5ae0566d.css" type="text/css" media="all">
+<script type="text/javascript" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/5fcb624164b6fa3e0cc534340d318393.js" id="jquery-js"></script>
+<script type="text/javascript" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/b3c9b0d28c57e99fb93554a397b50240.js" id="hui_scripts-js"></script>
+<script type="text/javascript" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/4fd95e87513d15db53e5e8051849e284.js" id="underscore-js"></script>
+<script type="text/javascript" id="hustle_front-js-extra">
+/* <![CDATA[ */
+var Modules = [{"settings":{"auto_close_success_message":"0","triggers":{"trigger":"time","on_time_delay":"0","on_time_unit":"seconds","on_scroll":"scrolled","on_scroll_page_percent":"20","on_scroll_css_selector":"","enable_on_click_element":"1","on_click_element":"","enable_on_click_shortcode":"1","on_exit_intent_per_session":"1","on_exit_intent_delayed":"0","on_exit_intent_delayed_time":"5","on_exit_intent_delayed_unit":"seconds","on_adblock":"0","enable_on_adblock_delay":"0","on_adblock_delay":"5","on_adblock_delay_unit":"seconds","on_exit_intent":"1"},"animation_in":"no_animation","animation_out":"no_animation","after_close_trigger":["click_close_icon"],"after_close":"no_show_all","expiration":"365","expiration_unit":"days","on_submit":"nothing","on_submit_delay":"5","on_submit_delay_unit":"seconds","close_cta":"0","close_cta_time":"0","close_cta_unit":"seconds","hide_after_cta":"keep_show","hide_after_subscription":"keep_show","is_schedule":"0","schedule":{"not_schedule_start":"1","start_date":"10\/21\/2020","start_hour":"12","start_minute":"00","start_meridiem_offset":"am","not_schedule_end":"1","end_date":"10\/27\/2020","end_hour":"11","end_minute":"59","end_meridiem_offset":"pm","active_days":"all","week_days":[],"is_active_all_day":"1","day_start_hour":"00","day_start_minute":"00","day_start_meridiem_offset":"am","day_end_hour":"11","day_end_minute":"59","day_end_meridiem_offset":"pm","time_to_use":"server","custom_timezone":"UTC"},"display_position":"s","auto_hide":"0","auto_hide_unit":"seconds","auto_hide_time":"5"},"module_id":"5","blog_id":"0","module_name":"LGPD","module_type":"slidein","active":"1","test_mode":"0","module_mode":"informational"}];
+var incOpt = {"is_admin":"","native_share_enpoints":{"facebook":"https:\/\/www.facebook.com\/sharer\/sharer.php?u=https%3A%2F%2Fdesenvolvimentoparaweb.com%2Fhtml%2Fweb-semantica-7-alternativas-div","twitter":"https:\/\/twitter.com\/intent\/tweet?url=https%3A%2F%2Fdesenvolvimentoparaweb.com%2Fhtml%2Fweb-semantica-7-alternativas-div&text=7%20alternativas%20%C3%A0%20%3Cdiv%3E%20para%20uma%20Web%20mais%20sem%C3%A2ntica","pinterest":"https:\/\/www.pinterest.com\/pin\/create\/button\/?url=https%3A%2F%2Fdesenvolvimentoparaweb.com%2Fhtml%2Fweb-semantica-7-alternativas-div","reddit":"https:\/\/www.reddit.com\/submit?url=https%3A%2F%2Fdesenvolvimentoparaweb.com%2Fhtml%2Fweb-semantica-7-alternativas-div","linkedin":"https:\/\/www.linkedin.com\/shareArticle?mini=true&url=https%3A%2F%2Fdesenvolvimentoparaweb.com%2Fhtml%2Fweb-semantica-7-alternativas-div","vkontakte":"https:\/\/vk.com\/share.php?url=https%3A%2F%2Fdesenvolvimentoparaweb.com%2Fhtml%2Fweb-semantica-7-alternativas-div","whatsapp":"https:\/\/api.whatsapp.com\/send?text=https%3A%2F%2Fdesenvolvimentoparaweb.com%2Fhtml%2Fweb-semantica-7-alternativas-div","email":"mailto:?subject=7%20alternativas%20%C3%A0%20%3Cdiv%3E%20para%20uma%20Web%20mais%20sem%C3%A2ntica&body=https%3A%2F%2Fdesenvolvimentoparaweb.com%2Fhtml%2Fweb-semantica-7-alternativas-div"},"ajaxurl":"https:\/\/desenvolvimentoparaweb.com\/wp\/wp-admin\/admin-ajax.php","page_id":"6118","page_slug":"html-web-semantica-7-alternativas-div","is_upfront":"","script_delay":"3000"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/668021dacb8ce2eb30343262769b779f.js" id="hustle_front-js"></script>
+<script type="text/javascript" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/5d7ca0fa5d6ae65b22d149555bcd1654.js" id="smush-lazy-load-js"></script>
+<script type="text/javascript" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/84865b4a4513d3c02ee2cbba4730f4ec.js" id="dpw/main.js-js"></script>
+<script type="text/javascript" id="crayon_js-js-extra">
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"https:\/\/desenvolvimentoparaweb.com\/wp\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Pressione %s para Copiar, %s para Colar","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/bb80380c92e07bb459bb0056d87181c9.js" id="crayon_js-js"></script>
+<script type="text/javascript" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/a39579f6625fdcad2e832e0bb86ba4d4.js" id="remote_sdk-js"></script>
+<script type="text/javascript" id="aepc-pixel-events-js-extra">
+/* <![CDATA[ */
+var aepc_pixel_events = {"custom_events":{"AdvancedEvents":[{"params":{"login_status":"not_logged_in","post_type":"post","object_id":6118,"object_type":"single","tax_category":["HTML"],"tax_post_tag":["Acessibilidade","B\u00e1sico da Web","Usabilidade"]},"delay":0}]}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="7%20alternativas%20%C3%A0%20(div)%20para%20uma%20Web%20mais%20sem%C3%A2ntica%20desenvolvimento%20para%20web_arquivos/77c31411a2cac2e6f9df283b1625a5a0.js" id="aepc-pixel-events-js"></script>
+<style type="text/css" id="hustle-module-5-0-styles" class="hustle-module-styles hustle-module-styles-5">@media screen and (min-width: 783px) {.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-slidein-content .hustle-info {max-width: 800px;}}.hustle-ui.module_id_5  .hustle-slidein-content {-moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);-webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);} .hustle-ui.module_id_5 .hustle-layout .hustle-layout-body {padding: 0px 0px 0px 0px;border-width: 0px 0px 0px 0px;border-style: solid;border-color: #DADADA;border-radius: 0px 0px 0px 0px;background-color: #38454E;} .hustle-ui.module_id_5 .hustle-layout .hustle-layout-header {padding: 20px 20px 20px 20px;border-width: 0px 0px 1px 0px;border-style: solid;border-color: rgba(0,0,0,0.16);border-radius: 0px 0px 0px 0px;background-color: rgba(0,0,0,0);-moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);-webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);} .hustle-ui.module_id_5 .hustle-layout .hustle-layout-content {padding: 0px 0px 0px 0px;border-width: 0px 0px 0px 0px;border-style: solid;border-radius: 0px 0px 0px 0px;border-color: rgba(0,0,0,0);background-color: rgba(0,0,0,0);}  .hustle-ui.module_id_5 .hustle-layout .hustle-content {margin: 0px 0px 0px 0px;padding: 0 20px 0 20px;border-width: 0px 0px 0px 0px;border-style: solid;border-radius: 0px 0px 0px 0px;border-color: rgba(0,0,0,0);background-color: rgba(0,0,0,0);}.hustle-ui.module_id_5 .hustle-layout .hustle-content .hustle-content-wrap {padding: 20px 0 20px 0;} .hustle-ui.module_id_5 .hustle-layout .hustle-group-content {margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;border-color: rgba(0,0,0,0);border-width: 0px 0px 0px 0px;border-style: solid;color: #ADB5B7;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content b,.hustle-ui.module_id_5 .hustle-layout .hustle-group-content strong {font-weight: bold;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content a,.hustle-ui.module_id_5 .hustle-layout .hustle-group-content a:visited {color: #38C5B5;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content a:hover {color: #2DA194;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content a:focus,.hustle-ui.module_id_5 .hustle-layout .hustle-group-content a:active {color: #2DA194;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content {color: #ADB5B7;font-size: 14px;line-height: 1.45em;font-family: Open Sans;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content p:not([class*="forminator-"]) {margin: 0 0 10px;color: #ADB5B7;font: normal 14px/1.45em Open Sans;font-style: normal;letter-spacing: 0px;text-transform: none;text-decoration: none;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content p:not([class*="forminator-"]):last-child {margin-bottom: 0;}@media screen and (min-width: 783px) {.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-layout .hustle-group-content p:not([class*="forminator-"]) {margin: 0 0 10px;}.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-layout .hustle-group-content p:not([class*="forminator-"]):last-child {margin-bottom: 0;}}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content h1:not([class*="forminator-"]) {margin: 0 0 10px;color: #ADB5B7;font: 700 28px/1.4em Open Sans;font-style: normal;letter-spacing: 0px;text-transform: none;text-decoration: none;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content h1:not([class*="forminator-"]):last-child {margin-bottom: 0;}@media screen and (min-width: 783px) {.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-layout .hustle-group-content h1:not([class*="forminator-"]) {margin: 0 0 10px;}.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-layout .hustle-group-content h1:not([class*="forminator-"]):last-child {margin-bottom: 0;}}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content h2:not([class*="forminator-"]) {margin: 0 0 10px;color: #ADB5B7;font-size: 22px;line-height: 1.4em;font-weight: 700;font-style: normal;letter-spacing: 0px;text-transform: none;text-decoration: none;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content h2:not([class*="forminator-"]):last-child {margin-bottom: 0;}@media screen and (min-width: 783px) {.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-layout .hustle-group-content h2:not([class*="forminator-"]) {margin: 0 0 10px;}.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-layout .hustle-group-content h2:not([class*="forminator-"]):last-child {margin-bottom: 0;}}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content h3:not([class*="forminator-"]) {margin: 0 0 10px;color: #ADB5B7;font: 700 18px/1.4em Open Sans;font-style: normal;letter-spacing: 0px;text-transform: none;text-decoration: none;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content h3:not([class*="forminator-"]):last-child {margin-bottom: 0;}@media screen and (min-width: 783px) {.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-layout .hustle-group-content h3:not([class*="forminator-"]) {margin: 0 0 10px;}.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-layout .hustle-group-content h3:not([class*="forminator-"]):last-child {margin-bottom: 0;}}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content h4:not([class*="forminator-"]) {margin: 0 0 10px;color: #ADB5B7;font: 700 16px/1.4em Open Sans;font-style: normal;letter-spacing: 0px;text-transform: none;text-decoration: none;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content h4:not([class*="forminator-"]):last-child {margin-bottom: 0;}@media screen and (min-width: 783px) {.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-layout .hustle-group-content h4:not([class*="forminator-"]) {margin: 0 0 10px;}.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-layout .hustle-group-content h4:not([class*="forminator-"]):last-child {margin-bottom: 0;}}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content h5:not([class*="forminator-"]) {margin: 0 0 10px;color: #ADB5B7;font: 700 14px/1.4em Open Sans;font-style: normal;letter-spacing: 0px;text-transform: none;text-decoration: none;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content h5:not([class*="forminator-"]):last-child {margin-bottom: 0;}@media screen and (min-width: 783px) {.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-layout .hustle-group-content h5:not([class*="forminator-"]) {margin: 0 0 10px;}.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-layout .hustle-group-content h5:not([class*="forminator-"]):last-child {margin-bottom: 0;}}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content h6:not([class*="forminator-"]) {margin: 0 0 10px;color: #ADB5B7;font: 700 12px/1.4em Open Sans;font-style: normal;letter-spacing: 0px;text-transform: uppercase;text-decoration: none;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content h6:not([class*="forminator-"]):last-child {margin-bottom: 0;}@media screen and (min-width: 783px) {.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-layout .hustle-group-content h6:not([class*="forminator-"]) {margin: 0 0 10px;}.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-layout .hustle-group-content h6:not([class*="forminator-"]):last-child {margin-bottom: 0;}}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content ol:not([class*="forminator-"]),.hustle-ui.module_id_5 .hustle-layout .hustle-group-content ul:not([class*="forminator-"]) {margin: 0 0 10px;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content ol:not([class*="forminator-"]):last-child,.hustle-ui.module_id_5 .hustle-layout .hustle-group-content ul:not([class*="forminator-"]):last-child {margin-bottom: 0;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content li:not([class*="forminator-"]) {margin: 0 0 5px;color: #ADB5B7;font: normal 14px/1.45em Open Sans;font-style: normal;letter-spacing: 0px;text-transform: none;text-decoration: none;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content li:not([class*="forminator-"]):last-child {margin-bottom: 0;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content ol:not([class*="forminator-"]) li:before {color: #ADB5B7}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content ul:not([class*="forminator-"]) li:before {color: #ADB5B7}@media screen and (min-width: 783px) {.hustle-ui.module_id_5 .hustle-layout .hustle-group-content ol:not([class*="forminator-"]),.hustle-ui.module_id_5 .hustle-layout .hustle-group-content ul:not([class*="forminator-"]) {margin: 0 0 20px;}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content ol:not([class*="forminator-"]):last-child,.hustle-ui.module_id_5 .hustle-layout .hustle-group-content ul:not([class*="forminator-"]):last-child {margin: 0;}}@media screen and (min-width: 783px) {.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-layout .hustle-group-content li:not([class*="forminator-"]) {margin: 0 0 5px;}.hustle-ui:not(.hustle-size--small).module_id_5 .hustle-layout .hustle-group-content li:not([class*="forminator-"]):last-child {margin-bottom: 0;}}.hustle-ui.module_id_5 .hustle-layout .hustle-group-content blockquote {margin-right: 0;margin-left: 0;}.hustle-ui.module_id_5 button.hustle-button-close {color: #38C5B5;}.hustle-ui.module_id_5 button.hustle-button-close:hover {color: #49E2D1;}.hustle-ui.module_id_5 button.hustle-button-close:focus,.hustle-ui.module_id_5 button.hustle-button-close:active {color: #FFFFFF;} .hustle-ui.module_id_5 .hustle-layout .hustle-group-content blockquote {border-left-color: #38C5B5;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout-body{
+  background-color:  #363636 !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout-body{
+  background-color:  #363636 !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout .hustle-layout-content{
+  padding-left:  25px !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout-body{
+  background-color:  #363636 !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout .hustle-layout-content{
+  padding-left:  25px !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout .hustle-layout-content .hustle-content-wrap{
+  padding-top:  15px !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout-body{
+  background-color:  #363636 !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout .hustle-layout-content{
+  padding-left:  25px !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout .hustle-layout-content .hustle-content-wrap{
+  padding-top:  15px !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout .hustle-layout-content .hustle-group-content p{
+  color:  #f7f7f9 !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout-body{
+  background-color:  #363636 !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout .hustle-layout-content{
+  padding-left:  25px !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout .hustle-layout-content .hustle-content-wrap{
+  padding-top:  15px !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout .hustle-layout-content .hustle-group-content p{
+  color:  #f7f7f9 !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-ui .hustle-icon-close{
+  position:  relative !important;
+  right:  -8px !important;
+  top:  10px !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout-body{
+  background-color:  #363636 !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout .hustle-layout-content{
+  padding-left:  25px !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout .hustle-layout-content .hustle-content-wrap{
+  padding-top:  15px !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout .hustle-layout-content .hustle-group-content p{
+  color:  #f7f7f9 !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-ui .hustle-icon-close{
+  position:  relative !important;
+  right:  -8px !important;
+  top:  10px !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-ui .hustle-icon-close:before{
+  content:  "\2716" !important;
+  font-size:  150% !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout-body{
+  background-color:  #363636 !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout .hustle-layout-content{
+  padding-left:  25px !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout .hustle-layout-content .hustle-content-wrap{
+  padding-top:  15px !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-layout .hustle-layout-content .hustle-group-content p{
+  color:  #f7f7f9 !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-ui .hustle-icon-close{
+  position:  relative !important;
+  right:  -8px !important;
+  top:  10px !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-ui .hustle-icon-close:before{
+  content:  "\2716" !important;
+  font-size:  150% !important;}.hustle-ui[data-id="5"] .hustle-info  .hustle-button-close{
+  background-color:  #363636 !important;
+  color:  #fff !important;
+  top:  12px !important;}</style> 
+
+</body></html>
